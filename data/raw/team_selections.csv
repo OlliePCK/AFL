@@ -1,0 +1,468 @@
+year,round,team,player,type
+2026,6,Carlton,A Cerra,selected
+2026,6,Carlton,B Ainsworth,selected
+2026,6,Carlton,B Kemp,selected
+2026,6,Carlton,E Hollands,selected
+2026,6,Carlton,F Evans,selected
+2026,6,Carlton,H Dean,selected
+2026,6,Carlton,H McKay,selected
+2026,6,Carlton,J Smith,selected
+2026,6,Carlton,J Weitering,selected
+2026,6,Carlton,L Cowan,selected
+2026,6,Carlton,L Young,selected
+2026,6,Carlton,M Carroll,selected
+2026,6,Carlton,M McGovern,selected
+2026,6,Carlton,M Pittonet,selected
+2026,6,Carlton,N Haynes,selected
+2026,6,Carlton,N Newman,selected
+2026,6,Carlton,O Florent,selected
+2026,6,Carlton,O Hollands,selected
+2026,6,Carlton,P Cripps,selected
+2026,6,Carlton,S Walsh,selected
+2026,6,Carlton,T Byrne,selected
+2026,6,Carlton,W Hayward,selected
+2026,6,Carlton,Z Williams,selected
+2026,6,Carlton,L Reidy,emergency
+2026,6,Carlton,F Young,emergency
+2026,6,Carlton,J Boyd,emergency
+2026,6,Collingwood,A Anderson,selected
+2026,6,Collingwood,B Frampton,selected
+2026,6,Collingwood,B Maynard,selected
+2026,6,Collingwood,B McCreery,selected
+2026,6,Collingwood,D Cameron,selected
+2026,6,Collingwood,D Houston,selected
+2026,6,Collingwood,D McStay,selected
+2026,6,Collingwood,E Allan,selected
+2026,6,Collingwood,H Perryman,selected
+2026,6,Collingwood,I Quaynor,selected
+2026,6,Collingwood,J Crisp,selected
+2026,6,Collingwood,J Daicos,selected
+2026,6,Collingwood,J Elliott,selected
+2026,6,Collingwood,J Howe,selected
+2026,6,Collingwood,L Schultz,selected
+2026,6,Collingwood,N Daicos,selected
+2026,6,Collingwood,N Long,selected
+2026,6,Collingwood,O Steene,selected
+2026,6,Collingwood,P Lipinski,selected
+2026,6,Collingwood,R Steele,selected
+2026,6,Collingwood,S Pendlebury,selected
+2026,6,Collingwood,T Membrey,selected
+2026,6,Collingwood,W Hayes,selected
+2026,6,Collingwood,W Parker,emergency
+2026,6,Collingwood,L Sullivan,emergency
+2026,6,Collingwood,J Buller,emergency
+2026,6,Geelong,B Smith,selected
+2026,6,Geelong,C O'Sullivan,selected
+2026,6,Geelong,J Bowes,selected
+2026,6,Geelong,J Cameron,selected
+2026,6,Geelong,J Kolodjashnij,selected
+2026,6,Geelong,J Martin,selected
+2026,6,Geelong,J Worpel,selected
+2026,6,Geelong,L Humphries,selected
+2026,6,Geelong,M Blicavs,selected
+2026,6,Geelong,M Edwards,selected
+2026,6,Geelong,M Holmes,selected
+2026,6,Geelong,O Dempsey,selected
+2026,6,Geelong,O Henry,selected
+2026,6,Geelong,O Mullin,selected
+2026,6,Geelong,O Wiltshire,selected
+2026,6,Geelong,P Dangerfield,selected
+2026,6,Geelong,S De Koning,selected
+2026,6,Geelong,S Mannagh,selected
+2026,6,Geelong,S Neale,selected
+2026,6,Geelong,T Atkins,selected
+2026,6,Geelong,T Bruhn,selected
+2026,6,Geelong,T Stewart,selected
+2026,6,Geelong,Z Guthrie,selected
+2026,6,Geelong,B Close,emergency
+2026,6,Geelong,M Knevitt,emergency
+2026,6,Geelong,J Henry,emergency
+2026,6,Western Bulldogs,A Naughton,selected
+2026,6,Western Bulldogs,B Dale,selected
+2026,6,Western Bulldogs,B Khamis,selected
+2026,6,Western Bulldogs,B Williams,selected
+2026,6,Western Bulldogs,C Hynes,selected
+2026,6,Western Bulldogs,E Richards,selected
+2026,6,Western Bulldogs,J Croft,selected
+2026,6,Western Bulldogs,J Freijah,selected
+2026,6,Western Bulldogs,J O'Donnell,selected
+2026,6,Western Bulldogs,L Bramble,selected
+2026,6,Western Bulldogs,L Emmett,selected
+2026,6,Western Bulldogs,L Jaques,selected
+2026,6,Western Bulldogs,M Bontempelli,selected
+2026,6,Western Bulldogs,M Kennedy,selected
+2026,6,Western Bulldogs,M Sellwood,selected
+2026,6,Western Bulldogs,O Baker,selected
+2026,6,Western Bulldogs,R Lobb,selected
+2026,6,Western Bulldogs,R Sanders,selected
+2026,6,Western Bulldogs,R West,selected
+2026,6,Western Bulldogs,S Darcy,selected
+2026,6,Western Bulldogs,S Davidson,selected
+2026,6,Western Bulldogs,T Liberatore,selected
+2026,6,Western Bulldogs,W Lewis,selected
+2026,6,Western Bulldogs,J Busslinger,emergency
+2026,6,Western Bulldogs,L McNeil,emergency
+2026,6,Western Bulldogs,L Cleary,emergency
+2026,6,Sydney,A Sheldrick,selected
+2026,6,Sydney,B Grundy,selected
+2026,6,Sydney,C Curnow,selected
+2026,6,Sydney,C Mills,selected
+2026,6,Sydney,C Warner,selected
+2026,6,Sydney,H Cunningham,selected
+2026,6,Sydney,I Heeney,selected
+2026,6,Sydney,J Amartey,selected
+2026,6,Sydney,J Hamling,selected
+2026,6,Sydney,J Jordon,selected
+2026,6,Sydney,J Lloyd,selected
+2026,6,Sydney,J McInerney,selected
+2026,6,Sydney,J Rowbottom,selected
+2026,6,Sydney,J Serong,selected
+2026,6,Sydney,L McDonald,selected
+2026,6,Sydney,M Roberts,selected
+2026,6,Sydney,M Rosas,selected
+2026,6,Sydney,N Blakey,selected
+2026,6,Sydney,R Bice,selected
+2026,6,Sydney,S Wicks,selected
+2026,6,Sydney,T McCartin,selected
+2026,6,Sydney,T Papley,selected
+2026,6,Sydney,H McLean,emergency
+2026,6,Sydney,B Cootee,emergency
+2026,6,Sydney,P Ladhams,emergency
+2026,6,Greater Western Sydney,C Brown,selected
+2026,6,Greater Western Sydney,C Idun,selected
+2026,6,Greater Western Sydney,C Oliver,selected
+2026,6,Greater Western Sydney,F Callaghan,selected
+2026,6,Greater Western Sydney,H Himmelberg,selected
+2026,6,Greater Western Sydney,H Rowston,selected
+2026,6,Greater Western Sydney,H Thomas,selected
+2026,6,Greater Western Sydney,J Buckley,selected
+2026,6,Greater Western Sydney,J Fonti,selected
+2026,6,Greater Western Sydney,J Laverde,selected
+2026,6,Greater Western Sydney,J Riccardi,selected
+2026,6,Greater Western Sydney,J Stringer,selected
+2026,6,Greater Western Sydney,L Aleer,selected
+2026,6,Greater Western Sydney,L Ash,selected
+2026,6,Greater Western Sydney,L Whitfield,selected
+2026,6,Greater Western Sydney,N Madden,selected
+2026,6,Greater Western Sydney,O Hannaford,selected
+2026,6,Greater Western Sydney,P Gothard,selected
+2026,6,Greater Western Sydney,R Angwin,selected
+2026,6,Greater Western Sydney,T Bedford,selected
+2026,6,Greater Western Sydney,T Greene,selected
+2026,6,Greater Western Sydney,T McMullin,selected
+2026,6,Greater Western Sydney,X O'Halloran,selected
+2026,6,Greater Western Sydney,J Hogan,emergency
+2026,6,Greater Western Sydney,C Stone,emergency
+2026,6,Greater Western Sydney,J Leake,emergency
+2026,6,Gold Coast,B Humphrey,selected
+2026,6,Gold Coast,B King,selected
+2026,6,Gold Coast,B Long,selected
+2026,6,Gold Coast,B Uwland,selected
+2026,6,Gold Coast,C Ballard,selected
+2026,6,Gold Coast,C Petracca,selected
+2026,6,Gold Coast,D Rioli,selected
+2026,6,Gold Coast,E Read,selected
+2026,6,Gold Coast,J Jeffrey,selected
+2026,6,Gold Coast,J Noble,selected
+2026,6,Gold Coast,J Rogers,selected
+2026,6,Gold Coast,J Walter,selected
+2026,6,Gold Coast,J Witts,selected
+2026,6,Gold Coast,L Lombard,selected
+2026,6,Gold Coast,L Weller,selected
+2026,6,Gold Coast,M Andrew,selected
+2026,6,Gold Coast,M Rowell,selected
+2026,6,Gold Coast,O Adams,selected
+2026,6,Gold Coast,S Collins,selected
+2026,6,Gold Coast,T Miller,selected
+2026,6,Gold Coast,W Graham,selected
+2026,6,Gold Coast,W Powell,selected
+2026,6,Gold Coast,Z Uwland,selected
+2026,6,Gold Coast,N Moyle,emergency
+2026,6,Gold Coast,L Gulbin,emergency
+2026,6,Gold Coast,B Jepson,emergency
+2026,6,Essendon,A D-Wicks,selected
+2026,6,Essendon,A May,selected
+2026,6,Essendon,A McGrath,selected
+2026,6,Essendon,A Roberts,selected
+2026,6,Essendon,B McKay,selected
+2026,6,Essendon,D Parish,selected
+2026,6,Essendon,E Tsatas,selected
+2026,6,Essendon,I Kako,selected
+2026,6,Essendon,J Caldwell,selected
+2026,6,Essendon,J Farrow,selected
+2026,6,Essendon,J Gresham,selected
+2026,6,Essendon,J Ridley,selected
+2026,6,Essendon,K Langford,selected
+2026,6,Essendon,L Blakiston,selected
+2026,6,Essendon,N Caddy,selected
+2026,6,Essendon,P Wright,selected
+2026,6,Essendon,S Durham,selected
+2026,6,Essendon,S E-Hawli,selected
+2026,6,Essendon,S Robey,selected
+2026,6,Essendon,T Edwards,selected
+2026,6,Essendon,X Duursma,selected
+2026,6,Essendon,Z Merrett,selected
+2026,6,Essendon,Z Reid,selected
+2026,6,Essendon,N Cox,emergency
+2026,6,Essendon,J Prior,emergency
+2026,6,Essendon,J Nguyen,emergency
+2026,6,Hawthorn,B Hardwick,selected
+2026,6,Hawthorn,C Dear,selected
+2026,6,Hawthorn,C MacDonald,selected
+2026,6,Hawthorn,C Mackenzie,selected
+2026,6,Hawthorn,C Nash,selected
+2026,6,Hawthorn,D Moore,selected
+2026,6,Hawthorn,F Perez,selected
+2026,6,Hawthorn,J Battle,selected
+2026,6,Hawthorn,J Ginnivan,selected
+2026,6,Hawthorn,J Impey,selected
+2026,6,Hawthorn,J Newcombe,selected
+2026,6,Hawthorn,J Sicily,selected
+2026,6,Hawthorn,J Ward,selected
+2026,6,Hawthorn,J Weddle,selected
+2026,6,Hawthorn,K Amon,selected
+2026,6,Hawthorn,L Meek,selected
+2026,6,Hawthorn,M D'Ambrosio,selected
+2026,6,Hawthorn,M Lewis,selected
+2026,6,Hawthorn,N Reeves,selected
+2026,6,Hawthorn,N Watson,selected
+2026,6,Hawthorn,S Butler,selected
+2026,6,Hawthorn,T Barrass,selected
+2026,6,Hawthorn,W McCabe,selected
+2026,6,Hawthorn,J Scrimshaw,emergency
+2026,6,Hawthorn,F Maginness,emergency
+2026,6,Hawthorn,B Ryan,emergency
+2026,6,Port Adelaide,A Aliir,selected
+2026,6,Port Adelaide,C Durdin,selected
+2026,6,Port Adelaide,C Moraes,selected
+2026,6,Port Adelaide,D B-Jones,selected
+2026,6,Port Adelaide,D Visentini,selected
+2026,6,Port Adelaide,E Mackinlay,selected
+2026,6,Port Adelaide,J Berry,selected
+2026,6,Port Adelaide,J Burgoyne,selected
+2026,6,Port Adelaide,J H-Francis,selected
+2026,6,Port Adelaide,J Lai,selected
+2026,6,Port Adelaide,J Richards,selected
+2026,6,Port Adelaide,J Sweet,selected
+2026,6,Port Adelaide,J Wehr,selected
+2026,6,Port Adelaide,J Whitlock,selected
+2026,6,Port Adelaide,K Farrell,selected
+2026,6,Port Adelaide,L Evans,selected
+2026,6,Port Adelaide,L Jones,selected
+2026,6,Port Adelaide,M Bergman,selected
+2026,6,Port Adelaide,M Georgiades,selected
+2026,6,Port Adelaide,O Wines,selected
+2026,6,Port Adelaide,T Marshall,selected
+2026,6,Port Adelaide,W Drew,selected
+2026,6,Port Adelaide,Z Butters,selected
+2026,6,Port Adelaide,J Watkins,emergency
+2026,6,Port Adelaide,M Zadow,emergency
+2026,6,Port Adelaide,B Z-Thatcher,emergency
+2026,6,Adelaide,A N-Bullen,selected
+2026,6,Adelaide,B Cook,selected
+2026,6,Adelaide,B Keays,selected
+2026,6,Adelaide,C Edwards,selected
+2026,6,Adelaide,F Maley,selected
+2026,6,Adelaide,H Bond,selected
+2026,6,Adelaide,I Cumming,selected
+2026,6,Adelaide,I Rankine,selected
+2026,6,Adelaide,J Butts,selected
+2026,6,Adelaide,J Peatling,selected
+2026,6,Adelaide,J Rachele,selected
+2026,6,Adelaide,J Worrell,selected
+2026,6,Adelaide,L McAndrew,selected
+2026,6,Adelaide,L Nankervis,selected
+2026,6,Adelaide,L Pedlar,selected
+2026,6,Adelaide,M Michalanney,selected
+2026,6,Adelaide,N Murray,selected
+2026,6,Adelaide,R Laird,selected
+2026,6,Adelaide,R Thilthorpe,selected
+2026,6,Adelaide,S Berry,selected
+2026,6,Adelaide,T Walker,selected
+2026,6,Adelaide,W Milera,selected
+2026,6,Adelaide,Z Taylor,selected
+2026,6,Adelaide,J Borlase,emergency
+2026,6,Adelaide,T Murray,emergency
+2026,6,Adelaide,B Dowling,emergency
+2026,6,St Kilda,B Hill,selected
+2026,6,St Kilda,C Sharman,selected
+2026,6,St Kilda,C Wilkie,selected
+2026,6,St Kilda,D Butler,selected
+2026,6,St Kilda,D Wilson,selected
+2026,6,St Kilda,H Boxshall,selected
+2026,6,St Kilda,H Clark,selected
+2026,6,St Kilda,H Garcia,selected
+2026,6,St Kilda,J Carroll,selected
+2026,6,St Kilda,J Higgins,selected
+2026,6,St Kilda,J Silvagni,selected
+2026,6,St Kilda,J Sinclair,selected
+2026,6,St Kilda,L Ryan,selected
+2026,6,St Kilda,L Stocker,selected
+2026,6,St Kilda,M Hall,selected
+2026,6,St Kilda,M Owens,selected
+2026,6,St Kilda,M Phillipou,selected
+2026,6,St Kilda,M Windhager,selected
+2026,6,St Kilda,M Wood,selected
+2026,6,St Kilda,N W-Milera,selected
+2026,6,St Kilda,R Marshall,selected
+2026,6,St Kilda,S Flanders,selected
+2026,6,St Kilda,T De Koning,selected
+2026,6,St Kilda,A Hastie,emergency
+2026,6,St Kilda,A Tauru,emergency
+2026,6,St Kilda,L O'Connell,emergency
+2026,6,North Melbourne,A Corr,selected
+2026,6,North Melbourne,C C-Jones,selected
+2026,6,North Melbourne,C Comben,selected
+2026,6,North Melbourne,C Daniel,selected
+2026,6,North Melbourne,C McKercher,selected
+2026,6,North Melbourne,C Spargo,selected
+2026,6,North Melbourne,C Trembath,selected
+2026,6,North Melbourne,C Zurhaar,selected
+2026,6,North Melbourne,D Stephens,selected
+2026,6,North Melbourne,G Logue,selected
+2026,6,North Melbourne,G Wardlaw,selected
+2026,6,North Melbourne,H Sheezel,selected
+2026,6,North Melbourne,J Darling,selected
+2026,6,North Melbourne,J Simpkin,selected
+2026,6,North Melbourne,L D-Uniacke,selected
+2026,6,North Melbourne,L Dovaston,selected
+2026,6,North Melbourne,L McDonald,selected
+2026,6,North Melbourne,L Parker,selected
+2026,6,North Melbourne,N Larkey,selected
+2026,6,North Melbourne,P Curtis,selected
+2026,6,North Melbourne,T Blamires,selected
+2026,6,North Melbourne,T Powell,selected
+2026,6,North Melbourne,Z Duursma,selected
+2026,6,North Melbourne,B Scott,emergency
+2026,6,North Melbourne,T Pink,emergency
+2026,6,North Melbourne,J Konstanty,emergency
+2026,6,Richmond,B Miller,selected
+2026,6,Richmond,C Gray,selected
+2026,6,Richmond,D Prestia,selected
+2026,6,Richmond,H Ralphsmith,selected
+2026,6,Richmond,J Faull,selected
+2026,6,Richmond,J Ross,selected
+2026,6,Richmond,J Short,selected
+2026,6,Richmond,K McAuliffe,selected
+2026,6,Richmond,L Fawcett,selected
+2026,6,Richmond,M Lefau,selected
+2026,6,Richmond,M Rioli,selected
+2026,6,Richmond,N Balta,selected
+2026,6,Richmond,N Broad,selected
+2026,6,Richmond,N Vlastuin,selected
+2026,6,Richmond,P Retschko,selected
+2026,6,Richmond,S Banks,selected
+2026,6,Richmond,S Campbell,selected
+2026,6,Richmond,S Green,selected
+2026,6,Richmond,S Grlj,selected
+2026,6,Richmond,S Lalor,selected
+2026,6,Richmond,S Ryan,selected
+2026,6,Richmond,T Sonsie,selected
+2026,6,Richmond,T Taranto,selected
+2026,6,Richmond,O H-Brown,emergency
+2026,6,Richmond,T Brown,emergency
+2026,6,Richmond,J Trezise,emergency
+2026,6,West Coast,A Reid,selected
+2026,6,West Coast,B Allan,selected
+2026,6,West Coast,B Hough,selected
+2026,6,West Coast,B Williams,selected
+2026,6,West Coast,C D-Tytler,selected
+2026,6,West Coast,E Hewett,selected
+2026,6,West Coast,E Yeo,selected
+2026,6,West Coast,H Davis,selected
+2026,6,West Coast,H Reid,selected
+2026,6,West Coast,H Schoenberg,selected
+2026,6,West Coast,J Cripps,selected
+2026,6,West Coast,J Lindsay,selected
+2026,6,West Coast,J Shanahan,selected
+2026,6,West Coast,J Waterman,selected
+2026,6,West Coast,L Baker,selected
+2026,6,West Coast,L Duggan,selected
+2026,6,West Coast,M Murdock,selected
+2026,6,West Coast,R Ginbey,selected
+2026,6,West Coast,S Brock,selected
+2026,6,West Coast,T Kelly,selected
+2026,6,West Coast,T McCarthy,selected
+2026,6,West Coast,T Young,selected
+2026,6,West Coast,W Duursma,selected
+2026,6,West Coast,M Owies,emergency
+2026,6,West Coast,R Maric,emergency
+2026,6,West Coast,M Flynn,emergency
+2026,6,Fremantle,A Brayshaw,selected
+2026,6,Fremantle,A Pearce,selected
+2026,6,Fremantle,B Cox,selected
+2026,6,Fremantle,C Serong,selected
+2026,6,Fremantle,C Wagner,selected
+2026,6,Fremantle,H Chapman,selected
+2026,6,Fremantle,H Young,selected
+2026,6,Fremantle,I Dudley,selected
+2026,6,Fremantle,J Amiss,selected
+2026,6,Fremantle,J Clark,selected
+2026,6,Fremantle,J McVee,selected
+2026,6,Fremantle,J Treacy,selected
+2026,6,Fremantle,K Worner,selected
+2026,6,Fremantle,L Jackson,selected
+2026,6,Fremantle,L Ryan,selected
+2026,6,Fremantle,M Cox,selected
+2026,6,Fremantle,M Frederick,selected
+2026,6,Fremantle,M Johnson,selected
+2026,6,Fremantle,M Reid,selected
+2026,6,Fremantle,N Erasmus,selected
+2026,6,Fremantle,P Voss,selected
+2026,6,Fremantle,S Bolton,selected
+2026,6,Fremantle,S Switkowski,selected
+2026,6,Fremantle,N O'Driscoll,emergency
+2026,6,Fremantle,B Walker,emergency
+2026,6,Fremantle,C Scerri,emergency
+2026,6,Melbourne,B Fritsch,selected
+2026,6,Melbourne,B Howes,selected
+2026,6,Melbourne,B Laurie,selected
+2026,6,Melbourne,B Mihocek,selected
+2026,6,Melbourne,C Windsor,selected
+2026,6,Melbourne,D Turner,selected
+2026,6,Melbourne,E Langdon,selected
+2026,6,Melbourne,H Langford,selected
+2026,6,Melbourne,H Petty,selected
+2026,6,Melbourne,H Sharp,selected
+2026,6,Melbourne,J Culley,selected
+2026,6,Melbourne,J Lever,selected
+2026,6,Melbourne,J Steele,selected
+2026,6,Melbourne,J Van Rooyen,selected
+2026,6,Melbourne,K Chandler,selected
+2026,6,Melbourne,K Pickett,selected
+2026,6,Melbourne,K Tholstrup,selected
+2026,6,Melbourne,L Pickett,selected
+2026,6,Melbourne,M Gawn,selected
+2026,6,Melbourne,M Heath,selected
+2026,6,Melbourne,M Jefferson,selected
+2026,6,Melbourne,T Sparrow,selected
+2026,6,Melbourne,X Taylor,selected
+2026,6,Melbourne,P Cross,emergency
+2026,6,Melbourne,J Henderson,emergency
+2026,6,Melbourne,L Kentfield,emergency
+2026,6,Brisbane Lions,B Reville,selected
+2026,6,Brisbane Lions,C Cameron,selected
+2026,6,Brisbane Lions,C Rayner,selected
+2026,6,Brisbane Lions,D Wilmot,selected
+2026,6,Brisbane Lions,H Andrews,selected
+2026,6,Brisbane Lions,H McCluggage,selected
+2026,6,Brisbane Lions,J Berry,selected
+2026,6,Brisbane Lions,J Dunkley,selected
+2026,6,Brisbane Lions,J Fletcher,selected
+2026,6,Brisbane Lions,K Coleman,selected
+2026,6,Brisbane Lions,K Lohmann,selected
+2026,6,Brisbane Lions,L Ashcroft,selected
+2026,6,Brisbane Lions,L McCarthy,selected
+2026,6,Brisbane Lions,L Morris,selected
+2026,6,Brisbane Lions,L Neale,selected
+2026,6,Brisbane Lions,N Answerth,selected
+2026,6,Brisbane Lions,O Allen,selected
+2026,6,Brisbane Lions,R Lester,selected
+2026,6,Brisbane Lions,S Draper,selected
+2026,6,Brisbane Lions,T Gallop,selected
+2026,6,Brisbane Lions,W Ashcroft,selected
+2026,6,Brisbane Lions,Z Bailey,selected
+2026,6,Brisbane Lions,Z Zakostelsky,selected
+2026,6,Brisbane Lions,D Fort,emergency
+2026,6,Brisbane Lions,J Tunstill,emergency
+2026,6,Brisbane Lions,S Brain,emergency

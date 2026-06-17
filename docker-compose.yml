@@ -1,0 +1,14 @@
+services:
+  afl-model:
+    build: .
+    container_name: afl-model
+    ports:
+      - "${AFL_HOST_PORT:-3000}:3000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - ODDS_API_KEY=${ODDS_API_KEY}
+      - VISUAL_CROSSING_API_KEY=${VISUAL_CROSSING_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - TZ=Australia/Sydney
+    restart: unless-stopped

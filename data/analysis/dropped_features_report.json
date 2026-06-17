@@ -1,0 +1,554 @@
+{
+  "baseline_groups": [
+    "form_10g",
+    "rest",
+    "ladder",
+    "detailed_stats",
+    "season_context"
+  ],
+  "best_params": {
+    "depth": 5,
+    "learning_rate": 0.04844579975180258,
+    "l2_leaf_reg": 7.554717488253138,
+    "min_data_in_leaf": 5,
+    "subsample": 0.9616934541295146,
+    "colsample_bylevel": 0.6540970023996343,
+    "iterations": 1500,
+    "early_stopping_rounds": 80,
+    "random_seed": 42,
+    "verbose": 0,
+    "eval_metric": "Logloss",
+    "use_best_model": true,
+    "bootstrap_type": "Bernoulli"
+  },
+  "val_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "configs": {
+    "baseline": {
+      "groups": [
+        "form_10g",
+        "rest",
+        "ladder",
+        "detailed_stats",
+        "season_context"
+      ],
+      "pooled_log_loss": 0.590448241647806,
+      "pooled_brier": 0.2039955411525646,
+      "pooled_accuracy": 0.6708595387840671,
+      "n_features": 44,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "log_loss": 0.6317954660751711,
+          "brier": 0.2210861258924497,
+          "accuracy": 0.6473429951690821
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "log_loss": 0.5985526295497781,
+          "brier": 0.2064309631080544,
+          "accuracy": 0.654320987654321
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "log_loss": 0.635461072423414,
+          "brier": 0.22240324403436265,
+          "accuracy": 0.6183574879227053
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "log_loss": 0.5592098383264331,
+          "brier": 0.18968765015585634,
+          "accuracy": 0.7198067632850241
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "log_loss": 0.5820027784194562,
+          "brier": 0.19938388538027607,
+          "accuracy": 0.6990740740740741
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "log_loss": 0.6101228273994062,
+          "brier": 0.2132922858424337,
+          "accuracy": 0.6481481481481481
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "log_loss": 0.5203159118115425,
+          "brier": 0.17717642233609893,
+          "accuracy": 0.7037037037037037
+        }
+      ]
+    },
+    "baseline+weather": {
+      "groups": [
+        "form_10g",
+        "rest",
+        "ladder",
+        "detailed_stats",
+        "season_context",
+        "weather"
+      ],
+      "pooled_log_loss": 0.596412699326626,
+      "pooled_brier": 0.206040073465145,
+      "pooled_accuracy": 0.6666666666666666,
+      "n_features": 52,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "log_loss": 0.6403843470771421,
+          "brier": 0.2250147077689341,
+          "accuracy": 0.642512077294686
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "log_loss": 0.6128733606836917,
+          "brier": 0.21239284078010295,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "log_loss": 0.6417203757044242,
+          "brier": 0.22501566584779925,
+          "accuracy": 0.6328502415458938
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "log_loss": 0.5601913199023598,
+          "brier": 0.1895810959379863,
+          "accuracy": 0.714975845410628
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "log_loss": 0.5842421545658519,
+          "brier": 0.20010186100809715,
+          "accuracy": 0.6759259259259259
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "log_loss": 0.6087547667431641,
+          "brier": 0.21231032618053053,
+          "accuracy": 0.6296296296296297
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "log_loss": 0.5330484836450171,
+          "brier": 0.18034767727627454,
+          "accuracy": 0.7037037037037037
+        }
+      ]
+    },
+    "baseline+h2h": {
+      "groups": [
+        "form_10g",
+        "rest",
+        "ladder",
+        "detailed_stats",
+        "season_context",
+        "h2h"
+      ],
+      "pooled_log_loss": 0.5955043936051024,
+      "pooled_brier": 0.2055994814838275,
+      "pooled_accuracy": 0.6715583508036338,
+      "n_features": 46,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "log_loss": 0.6397623070106346,
+          "brier": 0.22438727775827513,
+          "accuracy": 0.6328502415458938
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "log_loss": 0.6094323977983302,
+          "brier": 0.21050040041581133,
+          "accuracy": 0.6851851851851852
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "log_loss": 0.630278247767068,
+          "brier": 0.21973513849001305,
+          "accuracy": 0.6376811594202898
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "log_loss": 0.5649051735264787,
+          "brier": 0.19172632219132854,
+          "accuracy": 0.714975845410628
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "log_loss": 0.5923914822947395,
+          "brier": 0.20324941098145105,
+          "accuracy": 0.6898148148148148
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "log_loss": 0.6032470456692047,
+          "brier": 0.2101241564083326,
+          "accuracy": 0.6388888888888888
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "log_loss": 0.534014125029604,
+          "brier": 0.18149265612408258,
+          "accuracy": 0.7037037037037037
+        }
+      ]
+    },
+    "baseline+both": {
+      "groups": [
+        "form_10g",
+        "rest",
+        "ladder",
+        "detailed_stats",
+        "season_context",
+        "weather",
+        "h2h"
+      ],
+      "pooled_log_loss": 0.5927798424463121,
+      "pooled_brier": 0.2041691148943103,
+      "pooled_accuracy": 0.6673654786862334,
+      "n_features": 54,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "log_loss": 0.6352571497124916,
+          "brier": 0.22243119982310433,
+          "accuracy": 0.6280193236714976
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "log_loss": 0.6019153007288541,
+          "brier": 0.20644543687450723,
+          "accuracy": 0.6790123456790124
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "log_loss": 0.6363176891610874,
+          "brier": 0.22228575959235777,
+          "accuracy": 0.6280193236714976
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "log_loss": 0.5502739146445051,
+          "brier": 0.18504688274148062,
+          "accuracy": 0.7439613526570048
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "log_loss": 0.5920251535010729,
+          "brier": 0.2028310897355679,
+          "accuracy": 0.6620370370370371
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "log_loss": 0.6078201036691949,
+          "brier": 0.21199759206081678,
+          "accuracy": 0.6342592592592593
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "log_loss": 0.5299463347017456,
+          "brier": 0.17943394465547052,
+          "accuracy": 0.6990740740740741
+        }
+      ]
+    }
+  },
+  "deltas_vs_baseline": {
+    "baseline": 0.0,
+    "baseline+weather": 0.005964457678820034,
+    "baseline+h2h": 0.005056151957296473,
+    "baseline+both": 0.0023316007985061393
+  },
+  "top_40_importances": [
+    {
+      "rank": 1,
+      "feature": "elo_expected",
+      "importance": 7.776524544333379,
+      "group": "base"
+    },
+    {
+      "rank": 2,
+      "feature": "elo_diff",
+      "importance": 6.477838416299761,
+      "group": "base"
+    },
+    {
+      "rank": 3,
+      "feature": "percentage_diff",
+      "importance": 5.239648376033193,
+      "group": "ladder"
+    },
+    {
+      "rank": 4,
+      "feature": "avg_margin_diff_10",
+      "importance": 4.995120339083251,
+      "group": "form_10g"
+    },
+    {
+      "rank": 5,
+      "feature": "score_for_diff_10",
+      "importance": 3.9203164640345873,
+      "group": "form_10g"
+    },
+    {
+      "rank": 6,
+      "feature": "score_against_diff_5",
+      "importance": 3.6129021365561895,
+      "group": "base"
+    },
+    {
+      "rank": 7,
+      "feature": "avg_I50_diff_5",
+      "importance": 3.274002649252058,
+      "group": "detailed_stats"
+    },
+    {
+      "rank": 8,
+      "feature": "avg_margin_diff_5",
+      "importance": 3.18083173138378,
+      "group": "base"
+    },
+    {
+      "rank": 9,
+      "feature": "avg_R50_diff_5",
+      "importance": 3.0689888445870337,
+      "group": "detailed_stats"
+    },
+    {
+      "rank": 10,
+      "feature": "score_against_diff_10",
+      "importance": 2.8665903079040476,
+      "group": "form_10g"
+    },
+    {
+      "rank": 11,
+      "feature": "away_at_home_ground",
+      "importance": 2.6543630494493806,
+      "group": "base"
+    },
+    {
+      "rank": 12,
+      "feature": "avg_FA_diff_5",
+      "importance": 2.4145831932470023,
+      "group": "detailed_stats"
+    },
+    {
+      "rank": 13,
+      "feature": "avg_M_diff_5",
+      "importance": 2.297228495566381,
+      "group": "detailed_stats"
+    },
+    {
+      "rank": 14,
+      "feature": "ladder_rank_diff",
+      "importance": 2.190386005772363,
+      "group": "ladder"
+    },
+    {
+      "rank": 15,
+      "feature": "venue_win_rate_diff",
+      "importance": 2.1509631302654113,
+      "group": "base"
+    },
+    {
+      "rank": 16,
+      "feature": "missing_fwd_rating_diff",
+      "importance": 2.0893951254330623,
+      "group": "base"
+    },
+    {
+      "rank": 17,
+      "feature": "season_progress",
+      "importance": 2.0713158598262216,
+      "group": "season_context"
+    },
+    {
+      "rank": 18,
+      "feature": "net_quality_change_diff",
+      "importance": 2.015941938413418,
+      "group": "base"
+    },
+    {
+      "rank": 19,
+      "feature": "avg_T_diff_5",
+      "importance": 1.9317210681727388,
+      "group": "detailed_stats"
+    },
+    {
+      "rank": 20,
+      "feature": "missing_rating_diff",
+      "importance": 1.8999760111696307,
+      "group": "base"
+    },
+    {
+      "rank": 21,
+      "feature": "h2h_home_win_rate",
+      "importance": 1.7826360801355747,
+      "group": "h2h"
+    },
+    {
+      "rank": 22,
+      "feature": "avg_CL_diff_5",
+      "importance": 1.7089094119849197,
+      "group": "detailed_stats"
+    },
+    {
+      "rank": 23,
+      "feature": "missing_mid_rating_diff",
+      "importance": 1.635821714671248,
+      "group": "base"
+    },
+    {
+      "rank": 24,
+      "feature": "away_top4",
+      "importance": 1.6267268274651998,
+      "group": "ladder"
+    },
+    {
+      "rank": 25,
+      "feature": "avg_FF_diff_5",
+      "importance": 1.5598595363215484,
+      "group": "detailed_stats"
+    },
+    {
+      "rank": 26,
+      "feature": "wind_gust_kmh",
+      "importance": 1.5110761961207548,
+      "group": "weather"
+    },
+    {
+      "rank": 27,
+      "feature": "avg_D_diff_5",
+      "importance": 1.476843241277639,
+      "group": "detailed_stats"
+    },
+    {
+      "rank": 28,
+      "feature": "avg_HO_diff_5",
+      "importance": 1.4606108931616477,
+      "group": "detailed_stats"
+    },
+    {
+      "rank": 29,
+      "feature": "h2h_meetings",
+      "importance": 1.4272674469636464,
+      "group": "h2h"
+    },
+    {
+      "rank": 30,
+      "feature": "win_rate_diff_5",
+      "importance": 1.3575388103590824,
+      "group": "base"
+    },
+    {
+      "rank": 31,
+      "feature": "avg_CG_diff_5",
+      "importance": 1.316426643484287,
+      "group": "detailed_stats"
+    },
+    {
+      "rank": 32,
+      "feature": "home_top8",
+      "importance": 1.3006368572390334,
+      "group": "ladder"
+    },
+    {
+      "rank": 33,
+      "feature": "win_rate_diff_10",
+      "importance": 1.2500384129590436,
+      "group": "form_10g"
+    },
+    {
+      "rank": 34,
+      "feature": "lineup_changes_diff",
+      "importance": 1.2463743681592825,
+      "group": "base"
+    },
+    {
+      "rank": 35,
+      "feature": "rest_diff",
+      "importance": 1.2390912335961375,
+      "group": "rest"
+    },
+    {
+      "rank": 36,
+      "feature": "score_for_diff_5",
+      "importance": 1.1483497818088757,
+      "group": "base"
+    },
+    {
+      "rank": 37,
+      "feature": "missing_def_rating_diff",
+      "importance": 1.0509057608834718,
+      "group": "base"
+    },
+    {
+      "rank": 38,
+      "feature": "away_interstate",
+      "importance": 1.013843916884056,
+      "group": "base"
+    },
+    {
+      "rank": 39,
+      "feature": "is_roofed",
+      "importance": 0.9860643120587343,
+      "group": "weather"
+    },
+    {
+      "rank": 40,
+      "feature": "humidity",
+      "importance": 0.9843131994063847,
+      "group": "weather"
+    }
+  ],
+  "seed_variance": {
+    "baseline_log_loss_by_seed": {
+      "42": 0.59045,
+      "123": 0.5957,
+      "999": 0.59566
+    },
+    "mean": 0.59394,
+    "std": 0.00247,
+    "range": 0.00526,
+    "interpretation": "Seed-to-seed variance (range=0.00526) EXCEEDS the observed penalty for adding weather (+0.00596) and H2H (+0.00506). These differences are within noise."
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "val_period": "2025-2026",
+  "n_samples": 207,
+  "raw": [
+    {
+      "bin_mid": 0.05,
+      "predicted": 0.0736,
+      "observed": 0.0,
+      "count": 5
+    },
+    {
+      "bin_mid": 0.15,
+      "predicted": 0.1326,
+      "observed": 0.1667,
+      "count": 12
+    },
+    {
+      "bin_mid": 0.25,
+      "predicted": 0.2559,
+      "observed": 0.2105,
+      "count": 19
+    },
+    {
+      "bin_mid": 0.35,
+      "predicted": 0.3603,
+      "observed": 0.4,
+      "count": 20
+    },
+    {
+      "bin_mid": 0.45,
+      "predicted": 0.4575,
+      "observed": 0.5,
+      "count": 22
+    },
+    {
+      "bin_mid": 0.55,
+      "predicted": 0.5563,
+      "observed": 0.6774,
+      "count": 31
+    },
+    {
+      "bin_mid": 0.65,
+      "predicted": 0.6423,
+      "observed": 0.4737,
+      "count": 38
+    },
+    {
+      "bin_mid": 0.75,
+      "predicted": 0.7503,
+      "observed": 0.8333,
+      "count": 18
+    },
+    {
+      "bin_mid": 0.85,
+      "predicted": 0.8456,
+      "observed": 0.875,
+      "count": 24
+    },
+    {
+      "bin_mid": 0.95,
+      "predicted": 0.9339,
+      "observed": 1.0,
+      "count": 18
+    }
+  ],
+  "calibrated": [
+    {
+      "bin_mid": 0.05,
+      "predicted": 0.0911,
+      "observed": 0.0833,
+      "count": 12
+    },
+    {
+      "bin_mid": 0.15,
+      "predicted": 0.1362,
+      "observed": 0.25,
+      "count": 8
+    },
+    {
+      "bin_mid": 0.25,
+      "predicted": 0.2584,
+      "observed": 0.2381,
+      "count": 21
+    },
+    {
+      "bin_mid": 0.35,
+      "predicted": 0.351,
+      "observed": 0.3333,
+      "count": 21
+    },
+    {
+      "bin_mid": 0.45,
+      "predicted": 0.427,
+      "observed": 0.5,
+      "count": 2
+    },
+    {
+      "bin_mid": 0.55,
+      "predicted": 0.5308,
+      "observed": 0.6333,
+      "count": 30
+    },
+    {
+      "bin_mid": 0.65,
+      "predicted": 0.6167,
+      "observed": 0.5472,
+      "count": 53
+    },
+    {
+      "bin_mid": 0.75,
+      "predicted": 0.7585,
+      "observed": 0.8571,
+      "count": 14
+    },
+    {
+      "bin_mid": 0.85,
+      "predicted": 0.868,
+      "observed": 0.8095,
+      "count": 21
+    },
+    {
+      "bin_mid": 0.95,
+      "predicted": 0.9631,
+      "observed": 1.0,
+      "count": 25
+    }
+  ]
+}

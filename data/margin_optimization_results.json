@@ -1,0 +1,1090 @@
+{
+  "baseline": {
+    "params": {
+      "iterations": 2000,
+      "learning_rate": 0.05,
+      "depth": 4,
+      "l2_leaf_reg": 3,
+      "random_seed": 42,
+      "verbose": 0,
+      "early_stopping_rounds": 100,
+      "eval_metric": "MAE",
+      "loss_function": "MAE",
+      "use_best_model": true
+    },
+    "walk_forward": {
+      "pooled_mae": 26.049837546157818,
+      "pooled_rmse": 33.48740880626599,
+      "pooled_direction_acc": 0.660377358490566,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "mae": 27.41189918472471
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "mae": 23.313236663348302
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "mae": 26.66263721105599
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "mae": 24.721412584912414
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "mae": 25.63425489454227
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "mae": 27.135534197429312
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "mae": 26.812672713981858
+        }
+      ]
+    }
+  },
+  "tuned": {
+    "params": {
+      "iterations": 2000,
+      "early_stopping_rounds": 100,
+      "eval_metric": "MAE",
+      "loss_function": "MAE",
+      "use_best_model": true,
+      "verbose": 0,
+      "random_seed": 42,
+      "learning_rate": 0.056902671548617126,
+      "depth": 7,
+      "l2_leaf_reg": 6.328942355591057,
+      "random_strength": 1.922140490616357,
+      "border_count": 177,
+      "min_data_in_leaf": 1,
+      "bootstrap_type": "Bernoulli",
+      "subsample": 0.6010788964741505
+    },
+    "best_params": {
+      "learning_rate": 0.056902671548617126,
+      "depth": 7,
+      "l2_leaf_reg": 6.328942355591057,
+      "random_strength": 1.922140490616357,
+      "border_count": 177,
+      "min_data_in_leaf": 1,
+      "bootstrap_type": "Bernoulli",
+      "subsample": 0.6010788964741505
+    },
+    "best_trial_number": 36,
+    "n_trials_completed": 60,
+    "walk_forward": {
+      "pooled_mae": 25.97918828610761,
+      "pooled_rmse": 33.31458108324925,
+      "pooled_direction_acc": 0.6624737945492662,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "mae": 27.362714687158086
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "mae": 23.156312459078173
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "mae": 26.229471973750417
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "mae": 24.394226643715946
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "mae": 25.94473557523726
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "mae": 27.14409688947291
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "mae": 26.919076169512362
+        }
+      ]
+    }
+  },
+  "features": [
+    "elo_diff",
+    "elo_expected",
+    "home_interstate",
+    "away_interstate",
+    "home_at_home_ground",
+    "away_at_home_ground",
+    "venue_win_rate_diff",
+    "win_rate_diff_5",
+    "avg_margin_diff_5",
+    "score_for_diff_5",
+    "score_against_diff_5",
+    "lineup_changes_diff",
+    "lineup_continuity_diff",
+    "home_ruck_missing",
+    "away_ruck_missing",
+    "missing_rating_diff",
+    "net_quality_change_diff",
+    "missing_mid_rating_diff",
+    "missing_fwd_rating_diff",
+    "missing_def_rating_diff",
+    "win_rate_diff_10",
+    "avg_margin_diff_10",
+    "score_for_diff_10",
+    "score_against_diff_10",
+    "rest_diff",
+    "home_had_bye",
+    "away_had_bye",
+    "ladder_rank_diff",
+    "percentage_diff",
+    "home_top4",
+    "away_top4",
+    "home_top8",
+    "away_top8",
+    "avg_D_diff_5",
+    "avg_I50_diff_5",
+    "avg_CL_diff_5",
+    "avg_T_diff_5",
+    "avg_HO_diff_5",
+    "avg_CG_diff_5",
+    "avg_R50_diff_5",
+    "avg_M_diff_5",
+    "avg_FF_diff_5",
+    "avg_FA_diff_5",
+    "season_progress"
+  ],
+  "val_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "seed": 42,
+  "runtime_sec": 348.9786419868469,
+  "trial_log": [
+    {
+      "number": 0,
+      "state": "TrialState.COMPLETE",
+      "value": 26.092848636634926,
+      "params": {
+        "learning_rate": 0.023688639503640783,
+        "depth": 8,
+        "l2_leaf_reg": 5.395030966670228,
+        "random_strength": 5.986584841970366,
+        "border_count": 66,
+        "min_data_in_leaf": 4,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.8832290311184181
+      }
+    },
+    {
+      "number": 1,
+      "state": "TrialState.COMPLETE",
+      "value": 25.938856172778713,
+      "params": {
+        "learning_rate": 0.010485387725194618,
+        "depth": 8,
+        "l2_leaf_reg": 6.798962421591129,
+        "random_strength": 2.1233911067827616,
+        "border_count": 72,
+        "min_data_in_leaf": 4,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.7164916560792167
+      }
+    },
+    {
+      "number": 2,
+      "state": "TrialState.COMPLETE",
+      "value": 26.125232590549814,
+      "params": {
+        "learning_rate": 0.04091220574443785,
+        "depth": 3,
+        "l2_leaf_reg": 1.9594972058679163,
+        "random_strength": 3.663618432936917,
+        "border_count": 134,
+        "min_data_in_leaf": 16,
+        "bootstrap_type": "MVS",
+        "subsample": 0.6185801650879991
+      }
+    },
+    {
+      "number": 3,
+      "state": "TrialState.COMPLETE",
+      "value": 26.124357530677933,
+      "params": {
+        "learning_rate": 0.04050837781329675,
+        "depth": 4,
+        "l2_leaf_reg": 1.1615865989246452,
+        "random_strength": 9.488855372533333,
+        "border_count": 248,
+        "min_data_in_leaf": 17,
+        "bootstrap_type": "MVS",
+        "subsample": 0.7760609974958406
+      }
+    },
+    {
+      "number": 4,
+      "state": "TrialState.COMPLETE",
+      "value": 26.031229265639137,
+      "params": {
+        "learning_rate": 0.01324458134009936,
+        "depth": 5,
+        "l2_leaf_reg": 1.0824018381500955,
+        "random_strength": 9.093204020787821,
+        "border_count": 89,
+        "min_data_in_leaf": 14,
+        "bootstrap_type": "MVS",
+        "subsample": 0.6739417822102108
+      }
+    },
+    {
+      "number": 5,
+      "state": "TrialState.COMPLETE",
+      "value": 26.237124683283778,
+      "params": {
+        "learning_rate": 0.09323621351781479,
+        "depth": 7,
+        "l2_leaf_reg": 8.699593128513321,
+        "random_strength": 8.948273504276488,
+        "border_count": 165,
+        "min_data_in_leaf": 19,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.7301321323053057
+      }
+    },
+    {
+      "number": 6,
+      "state": "TrialState.COMPLETE",
+      "value": 26.0091116893996,
+      "params": {
+        "learning_rate": 0.02447244097399012,
+        "depth": 4,
+        "l2_leaf_reg": 6.741204610702761,
+        "random_strength": 3.567533266935893,
+        "border_count": 94,
+        "min_data_in_leaf": 11,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.9947547746402069
+      }
+    },
+    {
+      "number": 7,
+      "state": "TrialState.COMPLETE",
+      "value": 26.194356372712566,
+      "params": {
+        "learning_rate": 0.059189513354636465,
+        "depth": 4,
+        "l2_leaf_reg": 1.012796325733148,
+        "random_strength": 8.154614284548341,
+        "border_count": 190,
+        "min_data_in_leaf": 15,
+        "bootstrap_type": "Bayesian",
+        "bagging_temperature": 0.11586905952512971
+      }
+    },
+    {
+      "number": 8,
+      "state": "TrialState.COMPLETE",
+      "value": 26.025885142245276,
+      "params": {
+        "learning_rate": 0.07296312489711157,
+        "depth": 6,
+        "l2_leaf_reg": 2.1423874956449054,
+        "random_strength": 0.6355835028602363,
+        "border_count": 101,
+        "min_data_in_leaf": 7,
+        "bootstrap_type": "MVS",
+        "subsample": 0.7888859700647797
+      }
+    },
+    {
+      "number": 9,
+      "state": "TrialState.COMPLETE",
+      "value": 26.026361810686296,
+      "params": {
+        "learning_rate": 0.013170256885255107,
+        "depth": 7,
+        "l2_leaf_reg": 5.764810670114668,
+        "random_strength": 5.612771975694963,
+        "border_count": 204,
+        "min_data_in_leaf": 10,
+        "bootstrap_type": "Bayesian",
+        "bagging_temperature": 0.10789142699330445
+      }
+    },
+    {
+      "number": 10,
+      "state": "TrialState.COMPLETE",
+      "value": 26.016591795583757,
+      "params": {
+        "learning_rate": 0.010484029181467574,
+        "depth": 8,
+        "l2_leaf_reg": 3.802154438090311,
+        "random_strength": 0.17961875614819967,
+        "border_count": 35,
+        "min_data_in_leaf": 1,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.8759899226632443
+      }
+    },
+    {
+      "number": 11,
+      "state": "TrialState.COMPLETE",
+      "value": 26.043733205464402,
+      "params": {
+        "learning_rate": 0.021616987738756106,
+        "depth": 5,
+        "l2_leaf_reg": 9.811424559539084,
+        "random_strength": 2.819889586191254,
+        "border_count": 112,
+        "min_data_in_leaf": 10,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.9776317980672674
+      }
+    },
+    {
+      "number": 12,
+      "state": "TrialState.PRUNED",
+      "value": 25.623474352558787,
+      "params": {
+        "learning_rate": 0.024731695700226142,
+        "depth": 3,
+        "l2_leaf_reg": 6.20282445006139,
+        "random_strength": 2.3330699745011247,
+        "border_count": 53,
+        "min_data_in_leaf": 7,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.9682115640952363
+      }
+    },
+    {
+      "number": 13,
+      "state": "TrialState.COMPLETE",
+      "value": 26.06335402603815,
+      "params": {
+        "learning_rate": 0.014770943957377497,
+        "depth": 6,
+        "l2_leaf_reg": 4.027726195060308,
+        "random_strength": 4.058555339507213,
+        "border_count": 74,
+        "min_data_in_leaf": 1,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.8689340300305725
+      }
+    },
+    {
+      "number": 14,
+      "state": "TrialState.COMPLETE",
+      "value": 25.96634709386756,
+      "params": {
+        "learning_rate": 0.018349477351238756,
+        "depth": 4,
+        "l2_leaf_reg": 7.260514023164608,
+        "random_strength": 1.5953089830684708,
+        "border_count": 127,
+        "min_data_in_leaf": 6,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6933034528429899
+      }
+    },
+    {
+      "number": 15,
+      "state": "TrialState.COMPLETE",
+      "value": 26.035696844263335,
+      "params": {
+        "learning_rate": 0.016100292544703472,
+        "depth": 7,
+        "l2_leaf_reg": 2.765659058855286,
+        "random_strength": 1.655562813853778,
+        "border_count": 135,
+        "min_data_in_leaf": 5,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6866292409029615
+      }
+    },
+    {
+      "number": 16,
+      "state": "TrialState.COMPLETE",
+      "value": 26.013252459477993,
+      "params": {
+        "learning_rate": 0.010256263953376912,
+        "depth": 5,
+        "l2_leaf_reg": 7.840701886969228,
+        "random_strength": 1.3768921241569128,
+        "border_count": 164,
+        "min_data_in_leaf": 4,
+        "bootstrap_type": "Bayesian",
+        "bagging_temperature": 0.8837632875457566
+      }
+    },
+    {
+      "number": 17,
+      "state": "TrialState.COMPLETE",
+      "value": 26.103155430693697,
+      "params": {
+        "learning_rate": 0.017960911265224103,
+        "depth": 6,
+        "l2_leaf_reg": 4.5771932185458555,
+        "random_strength": 7.0266562151971215,
+        "border_count": 32,
+        "min_data_in_leaf": 7,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6063044060979901
+      }
+    },
+    {
+      "number": 18,
+      "state": "TrialState.COMPLETE",
+      "value": 25.972712885731873,
+      "params": {
+        "learning_rate": 0.018462435937035667,
+        "depth": 4,
+        "l2_leaf_reg": 3.184246716717865,
+        "random_strength": 1.6612838720737162,
+        "border_count": 117,
+        "min_data_in_leaf": 3,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.7212230569801873
+      }
+    },
+    {
+      "number": 19,
+      "state": "TrialState.COMPLETE",
+      "value": 25.99374886004491,
+      "params": {
+        "learning_rate": 0.03178999555577898,
+        "depth": 8,
+        "l2_leaf_reg": 7.716357837129188,
+        "random_strength": 4.693462677635962,
+        "border_count": 161,
+        "min_data_in_leaf": 12,
+        "bootstrap_type": "Bayesian",
+        "bagging_temperature": 0.9291513682476349
+      }
+    },
+    {
+      "number": 20,
+      "state": "TrialState.COMPLETE",
+      "value": 26.078945704016743,
+      "params": {
+        "learning_rate": 0.011960989440275897,
+        "depth": 3,
+        "l2_leaf_reg": 9.69565041837464,
+        "random_strength": 1.0154233414892457,
+        "border_count": 72,
+        "min_data_in_leaf": 8,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6760550106066836
+      }
+    },
+    {
+      "number": 21,
+      "state": "TrialState.COMPLETE",
+      "value": 25.9770397924347,
+      "params": {
+        "learning_rate": 0.018847039079673073,
+        "depth": 4,
+        "l2_leaf_reg": 2.9247888917931424,
+        "random_strength": 2.4058123774465896,
+        "border_count": 117,
+        "min_data_in_leaf": 3,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.7274970383984626
+      }
+    },
+    {
+      "number": 22,
+      "state": "TrialState.COMPLETE",
+      "value": 25.942550731038757,
+      "params": {
+        "learning_rate": 0.031269138223640996,
+        "depth": 4,
+        "l2_leaf_reg": 4.7301918863289085,
+        "random_strength": 0.0033705375158530337,
+        "border_count": 119,
+        "min_data_in_leaf": 3,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.7373058483829543
+      }
+    },
+    {
+      "number": 23,
+      "state": "TrialState.COMPLETE",
+      "value": 25.970897010065443,
+      "params": {
+        "learning_rate": 0.03397600116045536,
+        "depth": 5,
+        "l2_leaf_reg": 4.837357604235113,
+        "random_strength": 0.052737942865457986,
+        "border_count": 139,
+        "min_data_in_leaf": 5,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.7624082077987354
+      }
+    },
+    {
+      "number": 24,
+      "state": "TrialState.PRUNED",
+      "value": 25.700479341663815,
+      "params": {
+        "learning_rate": 0.05260379023749633,
+        "depth": 3,
+        "l2_leaf_reg": 7.077671294672666,
+        "random_strength": 2.7786380330443725,
+        "border_count": 90,
+        "min_data_in_leaf": 2,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.8184358267945905
+      }
+    },
+    {
+      "number": 25,
+      "state": "TrialState.COMPLETE",
+      "value": 25.984095121206007,
+      "params": {
+        "learning_rate": 0.026677805220741587,
+        "depth": 4,
+        "l2_leaf_reg": 5.245470481039313,
+        "random_strength": 0.9819262566280181,
+        "border_count": 201,
+        "min_data_in_leaf": 6,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6480891578589143
+      }
+    },
+    {
+      "number": 26,
+      "state": "TrialState.COMPLETE",
+      "value": 26.16858247231765,
+      "params": {
+        "learning_rate": 0.04340153192218297,
+        "depth": 5,
+        "l2_leaf_reg": 3.6821208095864963,
+        "random_strength": 1.9992277384680834,
+        "border_count": 56,
+        "min_data_in_leaf": 9,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.8295064332175373
+      }
+    },
+    {
+      "number": 27,
+      "state": "TrialState.COMPLETE",
+      "value": 25.91293672314294,
+      "params": {
+        "learning_rate": 0.019651486956459262,
+        "depth": 6,
+        "l2_leaf_reg": 6.306354864063311,
+        "random_strength": 0.5873357174972056,
+        "border_count": 117,
+        "min_data_in_leaf": 5,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.707334207395939
+      }
+    },
+    {
+      "number": 28,
+      "state": "TrialState.COMPLETE",
+      "value": 26.038375926990874,
+      "params": {
+        "learning_rate": 0.02812551860049488,
+        "depth": 7,
+        "l2_leaf_reg": 4.526548388810999,
+        "random_strength": 0.02946485925612119,
+        "border_count": 152,
+        "min_data_in_leaf": 3,
+        "bootstrap_type": "MVS",
+        "subsample": 0.7511336797366429
+      }
+    },
+    {
+      "number": 29,
+      "state": "TrialState.COMPLETE",
+      "value": 26.069487628553258,
+      "params": {
+        "learning_rate": 0.02180314639790422,
+        "depth": 8,
+        "l2_leaf_reg": 5.869937534899555,
+        "random_strength": 3.027372965404886,
+        "border_count": 71,
+        "min_data_in_leaf": 4,
+        "bootstrap_type": "Bayesian",
+        "bagging_temperature": 0.5169228062029461
+      }
+    },
+    {
+      "number": 30,
+      "state": "TrialState.COMPLETE",
+      "value": 25.889291514861636,
+      "params": {
+        "learning_rate": 0.03329645989461174,
+        "depth": 6,
+        "l2_leaf_reg": 5.3676539467865485,
+        "random_strength": 0.6196922828278714,
+        "border_count": 183,
+        "min_data_in_leaf": 1,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6427551274106433
+      }
+    },
+    {
+      "number": 31,
+      "state": "TrialState.COMPLETE",
+      "value": 25.891909863199114,
+      "params": {
+        "learning_rate": 0.034510566050168306,
+        "depth": 6,
+        "l2_leaf_reg": 5.137104308403913,
+        "random_strength": 0.6521327519989193,
+        "border_count": 176,
+        "min_data_in_leaf": 1,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6422048927941117
+      }
+    },
+    {
+      "number": 32,
+      "state": "TrialState.COMPLETE",
+      "value": 25.947078462928516,
+      "params": {
+        "learning_rate": 0.03657119113865712,
+        "depth": 6,
+        "l2_leaf_reg": 6.131255380949108,
+        "random_strength": 0.7935507980847737,
+        "border_count": 187,
+        "min_data_in_leaf": 1,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6450462090448932
+      }
+    },
+    {
+      "number": 33,
+      "state": "TrialState.COMPLETE",
+      "value": 25.98459084360104,
+      "params": {
+        "learning_rate": 0.04700670183930327,
+        "depth": 6,
+        "l2_leaf_reg": 5.355171163656443,
+        "random_strength": 0.6872687385698448,
+        "border_count": 232,
+        "min_data_in_leaf": 2,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6396538298853593
+      }
+    },
+    {
+      "number": 34,
+      "state": "TrialState.COMPLETE",
+      "value": 26.05154642057669,
+      "params": {
+        "learning_rate": 0.039267562146489625,
+        "depth": 7,
+        "l2_leaf_reg": 8.43576816083586,
+        "random_strength": 1.261106298134839,
+        "border_count": 222,
+        "min_data_in_leaf": 2,
+        "bootstrap_type": "MVS",
+        "subsample": 0.700970175873428
+      }
+    },
+    {
+      "number": 35,
+      "state": "TrialState.COMPLETE",
+      "value": 26.043236112865173,
+      "params": {
+        "learning_rate": 0.029143239723355974,
+        "depth": 6,
+        "l2_leaf_reg": 1.6309237157399836,
+        "random_strength": 3.5363046594691863,
+        "border_count": 179,
+        "min_data_in_leaf": 5,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6576457854400815
+      }
+    },
+    {
+      "number": 36,
+      "state": "TrialState.COMPLETE",
+      "value": 25.87866205684645,
+      "params": {
+        "learning_rate": 0.056902671548617126,
+        "depth": 7,
+        "l2_leaf_reg": 6.328942355591057,
+        "random_strength": 1.922140490616357,
+        "border_count": 177,
+        "min_data_in_leaf": 1,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6010788964741505
+      }
+    },
+    {
+      "number": 37,
+      "state": "TrialState.COMPLETE",
+      "value": 26.0109608809157,
+      "params": {
+        "learning_rate": 0.061568304847765744,
+        "depth": 7,
+        "l2_leaf_reg": 3.368866658639656,
+        "random_strength": 0.6729516111436005,
+        "border_count": 149,
+        "min_data_in_leaf": 1,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6023066730793555
+      }
+    },
+    {
+      "number": 38,
+      "state": "TrialState.COMPLETE",
+      "value": 26.068677797794248,
+      "params": {
+        "learning_rate": 0.06916241608420926,
+        "depth": 6,
+        "l2_leaf_reg": 4.145061740435794,
+        "random_strength": 2.0604611784919165,
+        "border_count": 180,
+        "min_data_in_leaf": 2,
+        "bootstrap_type": "MVS",
+        "subsample": 0.6224945508879649
+      }
+    },
+    {
+      "number": 39,
+      "state": "TrialState.PRUNED",
+      "value": 25.753526969893738,
+      "params": {
+        "learning_rate": 0.08701164641540997,
+        "depth": 7,
+        "l2_leaf_reg": 6.482837942472904,
+        "random_strength": 7.0146248309757135,
+        "border_count": 209,
+        "min_data_in_leaf": 4,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6267151514249485
+      }
+    },
+    {
+      "number": 40,
+      "state": "TrialState.PRUNED",
+      "value": 25.60164067316775,
+      "params": {
+        "learning_rate": 0.04859181556656553,
+        "depth": 6,
+        "l2_leaf_reg": 5.273775325429765,
+        "random_strength": 4.852164833227301,
+        "border_count": 170,
+        "min_data_in_leaf": 18,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6634042666718788
+      }
+    },
+    {
+      "number": 41,
+      "state": "TrialState.COMPLETE",
+      "value": 25.961089666291333,
+      "params": {
+        "learning_rate": 0.03736242797364009,
+        "depth": 8,
+        "l2_leaf_reg": 6.598319416605433,
+        "random_strength": 0.47990217911878397,
+        "border_count": 191,
+        "min_data_in_leaf": 1,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.7093620868658347
+      }
+    },
+    {
+      "number": 42,
+      "state": "TrialState.COMPLETE",
+      "value": 26.03270977755444,
+      "params": {
+        "learning_rate": 0.08061918614505305,
+        "depth": 7,
+        "l2_leaf_reg": 9.018173050350851,
+        "random_strength": 1.167155770574149,
+        "border_count": 251,
+        "min_data_in_leaf": 4,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6290194139379487
+      }
+    },
+    {
+      "number": 43,
+      "state": "TrialState.COMPLETE",
+      "value": 25.966687384859508,
+      "params": {
+        "learning_rate": 0.05486471275001617,
+        "depth": 7,
+        "l2_leaf_reg": 7.9344279913789775,
+        "random_strength": 3.1135459303796407,
+        "border_count": 156,
+        "min_data_in_leaf": 12,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6739595190221244
+      }
+    },
+    {
+      "number": 44,
+      "state": "TrialState.COMPLETE",
+      "value": 25.991059803405356,
+      "params": {
+        "learning_rate": 0.09941364832639737,
+        "depth": 8,
+        "l2_leaf_reg": 2.481551091341674,
+        "random_strength": 1.9103969997978778,
+        "border_count": 99,
+        "min_data_in_leaf": 2,
+        "bootstrap_type": "MVS",
+        "subsample": 0.614380998898726
+      }
+    },
+    {
+      "number": 45,
+      "state": "TrialState.COMPLETE",
+      "value": 26.074991383194035,
+      "params": {
+        "learning_rate": 0.012127729877560044,
+        "depth": 6,
+        "l2_leaf_reg": 5.466370922540447,
+        "random_strength": 4.276443316174844,
+        "border_count": 173,
+        "min_data_in_leaf": 3,
+        "bootstrap_type": "Bayesian",
+        "bagging_temperature": 0.48880612864085426
+      }
+    },
+    {
+      "number": 46,
+      "state": "TrialState.COMPLETE",
+      "value": 25.920884471581587,
+      "params": {
+        "learning_rate": 0.021691402511939045,
+        "depth": 8,
+        "l2_leaf_reg": 6.81954640482364,
+        "random_strength": 2.493929025558495,
+        "border_count": 219,
+        "min_data_in_leaf": 20,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6683427125265463
+      }
+    },
+    {
+      "number": 47,
+      "state": "TrialState.COMPLETE",
+      "value": 25.975913004070545,
+      "params": {
+        "learning_rate": 0.02623335981709963,
+        "depth": 5,
+        "l2_leaf_reg": 1.4141811054556737,
+        "random_strength": 2.4164067138558503,
+        "border_count": 220,
+        "min_data_in_leaf": 20,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6568502799740407
+      }
+    },
+    {
+      "number": 48,
+      "state": "TrialState.COMPLETE",
+      "value": 26.078555735741848,
+      "params": {
+        "learning_rate": 0.022492001185006612,
+        "depth": 7,
+        "l2_leaf_reg": 6.986517185421674,
+        "random_strength": 5.671701822235085,
+        "border_count": 201,
+        "min_data_in_leaf": 15,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.640180309878581
+      }
+    },
+    {
+      "number": 49,
+      "state": "TrialState.COMPLETE",
+      "value": 25.97151549843279,
+      "params": {
+        "learning_rate": 0.015981868513802924,
+        "depth": 6,
+        "l2_leaf_reg": 5.910836536359085,
+        "random_strength": 0.3807132979564658,
+        "border_count": 237,
+        "min_data_in_leaf": 17,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6002456658648332
+      }
+    },
+    {
+      "number": 50,
+      "state": "TrialState.COMPLETE",
+      "value": 25.922287862409437,
+      "params": {
+        "learning_rate": 0.02029292220017659,
+        "depth": 8,
+        "l2_leaf_reg": 3.9990110332261617,
+        "random_strength": 1.4791406792291193,
+        "border_count": 217,
+        "min_data_in_leaf": 13,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6888272528852911
+      }
+    },
+    {
+      "number": 51,
+      "state": "TrialState.COMPLETE",
+      "value": 26.060552947621172,
+      "params": {
+        "learning_rate": 0.021071721647118433,
+        "depth": 8,
+        "l2_leaf_reg": 4.117589894016689,
+        "random_strength": 1.7490081332922047,
+        "border_count": 212,
+        "min_data_in_leaf": 15,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6802801830215787
+      }
+    },
+    {
+      "number": 52,
+      "state": "TrialState.COMPLETE",
+      "value": 26.096464888306176,
+      "params": {
+        "learning_rate": 0.020369369241540567,
+        "depth": 8,
+        "l2_leaf_reg": 4.84503135560796,
+        "random_strength": 1.3678339318276005,
+        "border_count": 191,
+        "min_data_in_leaf": 12,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.7094016422086682
+      }
+    },
+    {
+      "number": 53,
+      "state": "TrialState.COMPLETE",
+      "value": 26.103151699587677,
+      "params": {
+        "learning_rate": 0.024702109192284036,
+        "depth": 7,
+        "l2_leaf_reg": 3.663913391882044,
+        "random_strength": 2.5666671488729227,
+        "border_count": 240,
+        "min_data_in_leaf": 13,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6649255817336921
+      }
+    },
+    {
+      "number": 54,
+      "state": "TrialState.COMPLETE",
+      "value": 25.958421408246807,
+      "params": {
+        "learning_rate": 0.014943979129159934,
+        "depth": 8,
+        "l2_leaf_reg": 4.2732572676626654,
+        "random_strength": 0.46757998497027065,
+        "border_count": 220,
+        "min_data_in_leaf": 20,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.694003379562277
+      }
+    },
+    {
+      "number": 55,
+      "state": "TrialState.COMPLETE",
+      "value": 26.040395118689155,
+      "params": {
+        "learning_rate": 0.016567353078286953,
+        "depth": 8,
+        "l2_leaf_reg": 7.429185656880069,
+        "random_strength": 1.4990264535321114,
+        "border_count": 230,
+        "min_data_in_leaf": 18,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.9309714707684508
+      }
+    },
+    {
+      "number": 56,
+      "state": "TrialState.COMPLETE",
+      "value": 25.941558537966863,
+      "params": {
+        "learning_rate": 0.03393077570284434,
+        "depth": 7,
+        "l2_leaf_reg": 5.1445576883485105,
+        "random_strength": 0.9564972964987444,
+        "border_count": 129,
+        "min_data_in_leaf": 8,
+        "bootstrap_type": "Bayesian",
+        "bagging_temperature": 0.5074651007746388
+      }
+    },
+    {
+      "number": 57,
+      "state": "TrialState.COMPLETE",
+      "value": 26.10064975546214,
+      "params": {
+        "learning_rate": 0.019577592890968668,
+        "depth": 6,
+        "l2_leaf_reg": 5.7547020203659445,
+        "random_strength": 3.282515247196085,
+        "border_count": 198,
+        "min_data_in_leaf": 14,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6333081963126779
+      }
+    },
+    {
+      "number": 58,
+      "state": "TrialState.COMPLETE",
+      "value": 26.09443361448511,
+      "params": {
+        "learning_rate": 0.023344453262024587,
+        "depth": 5,
+        "l2_leaf_reg": 6.554455955068499,
+        "random_strength": 2.158306483124123,
+        "border_count": 184,
+        "min_data_in_leaf": 10,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.6163854065985349
+      }
+    },
+    {
+      "number": 59,
+      "state": "TrialState.COMPLETE",
+      "value": 26.140736320780576,
+      "params": {
+        "learning_rate": 0.043803698246107185,
+        "depth": 8,
+        "l2_leaf_reg": 8.467874087201722,
+        "random_strength": 3.914263747168505,
+        "border_count": 145,
+        "min_data_in_leaf": 16,
+        "bootstrap_type": "Bernoulli",
+        "subsample": 0.7407548798172511
+      }
+    }
+  ]
+}

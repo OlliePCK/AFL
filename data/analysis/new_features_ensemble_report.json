@@ -1,0 +1,503 @@
+{
+  "seeds": [
+    42,
+    123,
+    256,
+    789,
+    1337
+  ],
+  "baseline_groups": [
+    "form_10g",
+    "rest",
+    "ladder",
+    "detailed_stats",
+    "season_context"
+  ],
+  "new_groups_tested": [
+    "travel",
+    "elo_velocity",
+    "efficiency",
+    "consistency"
+  ],
+  "best_params": {
+    "depth": 5,
+    "learning_rate": 0.04844579975180258,
+    "l2_leaf_reg": 7.554717488253138,
+    "min_data_in_leaf": 5,
+    "subsample": 0.9616934541295146,
+    "colsample_bylevel": 0.6540970023996343,
+    "iterations": 1500,
+    "early_stopping_rounds": 80,
+    "verbose": 0,
+    "eval_metric": "Logloss",
+    "use_best_model": true,
+    "bootstrap_type": "Bernoulli"
+  },
+  "val_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "configs": {
+    "baseline": {
+      "groups": [
+        "form_10g",
+        "rest",
+        "ladder",
+        "detailed_stats",
+        "season_context"
+      ],
+      "n_features": 44,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6350063377860984,
+          "seed_std_ll": 0.0022659464247899597,
+          "ensemble_ll": 0.6339046975830518
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.6043150496667393,
+          "seed_std_ll": 0.0039731428827205805,
+          "ensemble_ll": 0.6017873812262109
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6380304098125231,
+          "seed_std_ll": 0.0029391290185007473,
+          "ensemble_ll": 0.637273585120988
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5616460778154477,
+          "seed_std_ll": 0.0028834293061304364,
+          "ensemble_ll": 0.5599345977725793
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.5876355755428732,
+          "seed_std_ll": 0.004582487417347487,
+          "ensemble_ll": 0.5855183101052174
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.6064942555769426,
+          "seed_std_ll": 0.0034237660194553574,
+          "ensemble_ll": 0.60462775439006
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5272362497546565,
+          "seed_std_ll": 0.003969076146542341,
+          "ensemble_ll": 0.524653127855525
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.591842451128637,
+      "pooled_ensemble_brier": 0.20421597691812488,
+      "pooled_ensemble_accuracy": 0.6652690426275332,
+      "per_seed_pooled_log_loss": {
+        "42": 0.590448241647806,
+        "123": 0.5957045955651238,
+        "256": 0.5939601239923746,
+        "789": 0.5944500590436484,
+        "1337": 0.5936181690438845
+      },
+      "seed_mean_pooled_log_loss": 0.5936362378585675,
+      "seed_std_pooled_log_loss": 0.0017440732251326977
+    },
+    "baseline+travel": {
+      "groups": [
+        "form_10g",
+        "rest",
+        "ladder",
+        "detailed_stats",
+        "season_context",
+        "travel"
+      ],
+      "n_features": 47,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6362104069912436,
+          "seed_std_ll": 0.003980569049196559,
+          "ensemble_ll": 0.634503267053002
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.5987996326547298,
+          "seed_std_ll": 0.011574113244675535,
+          "ensemble_ll": 0.5942967934882594
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6400023486944649,
+          "seed_std_ll": 0.004020405736063305,
+          "ensemble_ll": 0.6384957446383269
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5676705588083556,
+          "seed_std_ll": 0.00259154417708927,
+          "ensemble_ll": 0.5662414149059833
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.5924820296177777,
+          "seed_std_ll": 0.005016665254002948,
+          "ensemble_ll": 0.589513888375192
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.6091070047150788,
+          "seed_std_ll": 0.0030036189642770237,
+          "ensemble_ll": 0.607233827749828
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5341218695292472,
+          "seed_std_ll": 0.0030226497167427572,
+          "ensemble_ll": 0.5320092831573904
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.5942769816182686,
+      "pooled_ensemble_brier": 0.2051338866557294,
+      "pooled_ensemble_accuracy": 0.6617749825296995,
+      "per_seed_pooled_log_loss": {
+        "42": 0.5996069222655667,
+        "123": 0.5939804868493693,
+        "256": 0.5990653362833959,
+        "789": 0.5946127533457749,
+        "1337": 0.5952744796785064
+      },
+      "seed_mean_pooled_log_loss": 0.5965079956845226,
+      "seed_std_pooled_log_loss": 0.0023513886562967295
+    },
+    "baseline+elo_velocity": {
+      "groups": [
+        "form_10g",
+        "rest",
+        "ladder",
+        "detailed_stats",
+        "season_context",
+        "elo_velocity"
+      ],
+      "n_features": 45,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6378622089580693,
+          "seed_std_ll": 0.00416711308423771,
+          "ensemble_ll": 0.6357498451859094
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.6060254206647728,
+          "seed_std_ll": 0.004538340945945318,
+          "ensemble_ll": 0.6032254559642976
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6398687492835526,
+          "seed_std_ll": 0.001547595526441893,
+          "ensemble_ll": 0.6392190660763899
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5636268416359991,
+          "seed_std_ll": 0.0037558408556612696,
+          "ensemble_ll": 0.5620513273926839
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.585352690861507,
+          "seed_std_ll": 0.004271580270637693,
+          "ensemble_ll": 0.5833882243765174
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.606479737977008,
+          "seed_std_ll": 0.003378193384491984,
+          "ensemble_ll": 0.6047518888979246
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5284221474532116,
+          "seed_std_ll": 0.004049171633534894,
+          "ensemble_ll": 0.5254276035504453
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.5926738924542093,
+      "pooled_ensemble_brier": 0.20452274546581084,
+      "pooled_ensemble_accuracy": 0.6694619147449337,
+      "per_seed_pooled_log_loss": {
+        "42": 0.5928887512401387,
+        "123": 0.5960101675006227,
+        "256": 0.5953774817060403,
+        "789": 0.5913818629721078,
+        "1337": 0.5974800007368335
+      },
+      "seed_mean_pooled_log_loss": 0.5946276528311486,
+      "seed_std_pooled_log_loss": 0.0021985635892676023
+    },
+    "baseline+efficiency": {
+      "groups": [
+        "form_10g",
+        "rest",
+        "ladder",
+        "detailed_stats",
+        "season_context",
+        "efficiency"
+      ],
+      "n_features": 46,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6352930466633511,
+          "seed_std_ll": 0.003322831507273579,
+          "ensemble_ll": 0.6303636109338471
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.6061366069633948,
+          "seed_std_ll": 0.004312182254912283,
+          "ensemble_ll": 0.6035933943246752
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6415819401152885,
+          "seed_std_ll": 0.0016144170108148075,
+          "ensemble_ll": 0.6398338187291975
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5639008971792652,
+          "seed_std_ll": 0.005801860194662025,
+          "ensemble_ll": 0.5626016587790093
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.5881913225779457,
+          "seed_std_ll": 0.0025282085754099134,
+          "ensemble_ll": 0.5864339968367633
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.6065660637092538,
+          "seed_std_ll": 0.0013643186040006269,
+          "ensemble_ll": 0.6040643525237557
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5270041323397509,
+          "seed_std_ll": 0.005485843590703228,
+          "ensemble_ll": 0.52371523361348
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.5922024284489772,
+      "pooled_ensemble_brier": 0.20435640059121005,
+      "pooled_ensemble_accuracy": 0.6645702306079665,
+      "per_seed_pooled_log_loss": {
+        "42": 0.5963774438569374,
+        "123": 0.5942305394883867,
+        "256": 0.5948460438468315,
+        "789": 0.591364919378465,
+        "1337": 0.5970986856123899
+      },
+      "seed_mean_pooled_log_loss": 0.5947835264366022,
+      "seed_std_pooled_log_loss": 0.0019948489647843314
+    },
+    "baseline+consistency": {
+      "groups": [
+        "form_10g",
+        "rest",
+        "ladder",
+        "detailed_stats",
+        "season_context",
+        "consistency"
+      ],
+      "n_features": 46,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6366397103468889,
+          "seed_std_ll": 0.0016974020177932033,
+          "ensemble_ll": 0.6349095569229721
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.6133081190208027,
+          "seed_std_ll": 0.0033445711501552803,
+          "ensemble_ll": 0.6114455940349481
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6406715276262618,
+          "seed_std_ll": 0.0038358774237575574,
+          "ensemble_ll": 0.638811640399122
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5611942901132942,
+          "seed_std_ll": 0.005093505543356115,
+          "ensemble_ll": 0.5595738512536307
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.591535515155335,
+          "seed_std_ll": 0.0030194488781970542,
+          "ensemble_ll": 0.589459541331703
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.6078863211727897,
+          "seed_std_ll": 0.0028515714470214795,
+          "ensemble_ll": 0.6060810213406469
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5342780649311581,
+          "seed_std_ll": 0.005528359000415073,
+          "ensemble_ll": 0.5315808942155902
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.5951114577055427,
+      "pooled_ensemble_brier": 0.20550334247558197,
+      "pooled_ensemble_accuracy": 0.6617749825296995,
+      "per_seed_pooled_log_loss": {
+        "42": 0.5975255940024548,
+        "123": 0.5959578337925538,
+        "256": 0.5983221262402567,
+        "789": 0.595565424898764,
+        "1337": 0.5979740185057656
+      },
+      "seed_mean_pooled_log_loss": 0.597068999487959,
+      "seed_std_pooled_log_loss": 0.0011039284739965427
+    },
+    "baseline+all_new": {
+      "groups": [
+        "form_10g",
+        "rest",
+        "ladder",
+        "detailed_stats",
+        "season_context",
+        "travel",
+        "elo_velocity",
+        "efficiency",
+        "consistency"
+      ],
+      "n_features": 52,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6338362202093203,
+          "seed_std_ll": 0.004552505468135943,
+          "ensemble_ll": 0.6326749789857272
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.6075217040397322,
+          "seed_std_ll": 0.004016395915160935,
+          "ensemble_ll": 0.6052692816675805
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6366328094356872,
+          "seed_std_ll": 0.003249097378044423,
+          "ensemble_ll": 0.6339777396957214
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5650988627463565,
+          "seed_std_ll": 0.001220994749331594,
+          "ensemble_ll": 0.5636786072747102
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.5921458388943787,
+          "seed_std_ll": 0.003287856657281865,
+          "ensemble_ll": 0.589753199150195
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.6093162274621411,
+          "seed_std_ll": 0.0029228732423333703,
+          "ensemble_ll": 0.6076711195033946
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5375657983145731,
+          "seed_std_ll": 0.0068929096479851395,
+          "ensemble_ll": 0.5356562499377356
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.5948830264981126,
+      "pooled_ensemble_brier": 0.20522955401712792,
+      "pooled_ensemble_accuracy": 0.663172606568833,
+      "per_seed_pooled_log_loss": {
+        "42": 0.5966912552157944,
+        "123": 0.5952838515885504,
+        "256": 0.5981809666394273,
+        "789": 0.5957406773206508,
+        "1337": 0.5980693168400669
+      },
+      "seed_mean_pooled_log_loss": 0.596793213520898,
+      "seed_std_pooled_log_loss": 0.0011790419662431348
+    }
+  },
+  "deltas_vs_baseline": {
+    "baseline": 0.0,
+    "baseline+travel": 0.0024345304896316033,
+    "baseline+elo_velocity": 0.0008314413255723352,
+    "baseline+efficiency": 0.00035997732034021013,
+    "baseline+consistency": 0.003269006576905764,
+    "baseline+all_new": 0.003040575369475662
+  },
+  "noise_floor_seed_std": 0.0017440732251326977,
+  "runtime_sec": 151.49244856834412
+}

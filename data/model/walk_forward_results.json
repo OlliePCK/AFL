@@ -1,0 +1,87 @@
+{
+  "yearly": [
+    {
+      "year": 2015,
+      "n_bets": 57,
+      "win_rate": 0.439,
+      "roi": -32.9,
+      "total_profit": -772.58
+    },
+    {
+      "year": 2016,
+      "n_bets": 41,
+      "win_rate": 0.415,
+      "roi": 21.8,
+      "total_profit": 783.5
+    },
+    {
+      "year": 2017,
+      "n_bets": 66,
+      "win_rate": 0.545,
+      "roi": 2.9,
+      "total_profit": 145.97
+    },
+    {
+      "year": 2018,
+      "n_bets": 45,
+      "win_rate": 0.444,
+      "roi": -13.7,
+      "total_profit": -514.98
+    },
+    {
+      "year": 2019,
+      "n_bets": 42,
+      "win_rate": 0.595,
+      "roi": 1.7,
+      "total_profit": 73.22
+    },
+    {
+      "year": 2020,
+      "n_bets": 27,
+      "win_rate": 0.296,
+      "roi": -28.2,
+      "total_profit": -443.39
+    },
+    {
+      "year": 2021,
+      "n_bets": 73,
+      "win_rate": 0.507,
+      "roi": -9.7,
+      "total_profit": -463.73
+    },
+    {
+      "year": 2022,
+      "n_bets": 46,
+      "win_rate": 0.565,
+      "roi": 14.3,
+      "total_profit": 945.35
+    },
+    {
+      "year": 2023,
+      "n_bets": 42,
+      "win_rate": 0.667,
+      "roi": 9.3,
+      "total_profit": 484.2
+    },
+    {
+      "year": 2024,
+      "n_bets": 54,
+      "win_rate": 0.685,
+      "roi": 22.4,
+      "total_profit": 2617.47
+    },
+    {
+      "year": 2025,
+      "n_bets": 47,
+      "win_rate": 0.681,
+      "roi": 8.8,
+      "total_profit": 650.78
+    }
+  ],
+  "summary": {
+    "total_bets": 540,
+    "overall_roi": 6.5,
+    "profitable_years": 7,
+    "total_years": 11
+  }
+}

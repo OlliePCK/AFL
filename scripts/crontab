@@ -1,0 +1,34 @@
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+CRON_TZ=Australia/Sydney
+
+# AFL Model Automation Schedule
+# Times are in Australia/Sydney local time.
+# Season window: March through September.
+
+# Daily overnight sync: results, standings, Footywire player stats, dashboard results export.
+15 3 * 3-9 * cd /app && python scripts/automate.py sync-results >> /var/log/afl/cron.log 2>&1
+
+# Weekly full cycle after the round is complete.
+0 6 * 3-9 2 cd /app && python scripts/automate.py full-cycle >> /var/log/afl/cron.log 2>&1
+
+# Daily cached-odds prediction refresh for dashboard freshness.
+0 7 * 3-9 * cd /app && python scripts/automate.py predict-cached >> /var/log/afl/cron.log 2>&1
+
+# Early-week opening odds snapshots.
+0 9 * 3-9 2,3 cd /app && python scripts/automate.py odds >> /var/log/afl/cron.log 2>&1
+
+# Named-team refresh for Thursday evening announcements.
+30 18 * 3-9 4 cd /app && python scripts/automate.py refresh-round >> /var/log/afl/cron.log 2>&1
+
+# Sunday trimmed-team refresh on Friday afternoon.
+35 16 * 3-9 5 cd /app && python scripts/automate.py refresh-round >> /var/log/afl/cron.log 2>&1
+
+# Midday pre-game refresh on weekend match days.
+30 11 * 3-9 0,6 cd /app && python scripts/automate.py refresh-round >> /var/log/afl/cron.log 2>&1
+
+# Late-afternoon pre-game refresh on weekend match days.
+30 14 * 3-9 0,6 cd /app && python scripts/automate.py refresh-round >> /var/log/afl/cron.log 2>&1
+
+# Evening pre-game refresh for Monday, Friday, Saturday, and Sunday fixtures.
+30 18 * 3-9 0,1,5,6 cd /app && python scripts/automate.py refresh-round >> /var/log/afl/cron.log 2>&1

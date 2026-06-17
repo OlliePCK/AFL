@@ -1,0 +1,97 @@
+{
+  "window_start_year": 2019,
+  "window_end_year": 2025,
+  "seeds": [
+    42,
+    123,
+    256,
+    789,
+    1337
+  ],
+  "variants": {
+    "V1_close3 (baseline)": [
+      "implied_home_close",
+      "overround_close",
+      "home_line_close"
+    ],
+    "V2_open2": [
+      "implied_home_open",
+      "overround_open"
+    ],
+    "V3_open+line": [
+      "implied_home_open",
+      "overround_open",
+      "home_line_close"
+    ],
+    "V4_open+movement": [
+      "implied_home_open",
+      "overround_open",
+      "odds_move",
+      "odds_move_magnitude",
+      "overround_change"
+    ]
+  },
+  "n_common_sample": 1430,
+  "metrics": {
+    "p_V1_close3 (baseline)": {
+      "n": 1430,
+      "log_loss": 0.5834264530506029,
+      "brier": 0.20021897533418379,
+      "accuracy": 0.6881118881118881
+    },
+    "p_V2_open2": {
+      "n": 1430,
+      "log_loss": 0.5971327774545065,
+      "brier": 0.2056267994060762,
+      "accuracy": 0.6874125874125874
+    },
+    "p_V3_open+line": {
+      "n": 1430,
+      "log_loss": 0.5853305521542194,
+      "brier": 0.20092923786566808,
+      "accuracy": 0.6846153846153846
+    },
+    "p_V4_open+movement": {
+      "n": 1430,
+      "log_loss": 0.5892057377061504,
+      "brier": 0.2024502050533723,
+      "accuracy": 0.676923076923077
+    },
+    "p_market_open": {
+      "n": 1430,
+      "log_loss": 0.596824690507272,
+      "brier": 0.20551618863668658,
+      "accuracy": 0.6825174825174826
+    }
+  },
+  "deltas_vs_V1_close3": {
+    "p_V2_open2": {
+      "d_ll": 0.013706324403903625,
+      "d_brier": 0.005407824071892414,
+      "d_acc": -0.0006993006993006867
+    },
+    "p_V3_open+line": {
+      "d_ll": 0.0019040991036164412,
+      "d_brier": 0.0007102625314842903,
+      "d_acc": -0.0034965034965034336
+    },
+    "p_V4_open+movement": {
+      "d_ll": 0.005779284655547445,
+      "d_brier": 0.0022312297191885155,
+      "d_acc": -0.011188811188811099
+    },
+    "p_market_open": {
+      "d_ll": 0.013398237456669126,
+      "d_brier": 0.005297213302502796,
+      "d_acc": -0.005594405594405494
+    }
+  },
+  "verdicts_vs_V1_close3": {
+    "p_V2_open2": "WORSE by 0.0137 LL",
+    "p_V3_open+line": "SLIGHTLY WORSE by 0.0019 LL (<3x noise)",
+    "p_V4_open+movement": "WORSE by 0.0058 LL",
+    "p_market_open": "WORSE by 0.0134 LL"
+  },
+  "noise_floor_ll": 0.00174,
+  "runtime_sec": 59.0162672996521
+}

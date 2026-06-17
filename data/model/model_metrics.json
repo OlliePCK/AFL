@@ -1,0 +1,41 @@
+{
+  "new_model": {
+    "accuracy": 0.7246,
+    "log_loss": 0.5257,
+    "auc_roc": 0.7817,
+    "brier_score": 0.1802
+  },
+  "old_model": {
+    "accuracy": 0.7053,
+    "log_loss": 0.5349,
+    "auc_roc": 0.7848,
+    "brier_score": 0.1826
+  },
+  "train_period": "2012-2025",
+  "val_period": "2025-2026",
+  "ensemble": {
+    "n_models": 5,
+    "wf_pooled_log_loss": 0.5911259853088592,
+    "wf_seed_mean_log_loss": 0.5930590275275144,
+    "wf_seed_std_log_loss": 0.0010831309846236759,
+    "wf_ensemble_delta_vs_seed_mean": -0.001933042218655201
+  },
+  "margin_ensemble": {
+    "n_models": 5,
+    "wf_pooled_mae": 25.98483287644393,
+    "holdout_mae": 26.258606878850383,
+    "holdout_direction_acc": 0.6859903381642513
+  },
+  "optimization": {
+    "n_trials": 120,
+    "best_log_loss_cv": 0.590448241647806,
+    "feature_groups": [
+      "form_10g",
+      "rest",
+      "ladder",
+      "detailed_stats",
+      "season_context"
+    ],
+    "n_features": 44
+  }
+}

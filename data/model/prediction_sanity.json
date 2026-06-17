@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-04-17T10:28:44",
+  "round": "Round 6",
+  "n_upcoming": 8,
+  "overall_level": "pass",
+  "checks": [
+    {
+      "name": "constant_output",
+      "level": "pass",
+      "details": {
+        "betting": {
+          "status": "ok",
+          "stddev": 0.27369,
+          "min": 0.0526,
+          "max": 0.98,
+          "n": 8
+        },
+        "analytical": {
+          "status": "ok",
+          "stddev": 0.30536,
+          "min": 0.1029,
+          "max": 0.963,
+          "n": 8
+        }
+      }
+    },
+    {
+      "name": "feature_nan_coverage",
+      "level": "pass",
+      "offenders": {
+        "betting": {
+          "n_upcoming": 8,
+          "offenders": [],
+          "total_features": 44
+        },
+        "analytical": {
+          "n_upcoming": 8,
+          "offenders": [],
+          "total_features": 3
+        }
+      }
+    },
+    {
+      "name": "clamp_saturation",
+      "level": "pass",
+      "details": {
+        "betting": {
+          "status": "ok",
+          "rate": 0.125,
+          "n_low": 0,
+          "n_high": 1,
+          "n": 8
+        },
+        "analytical": {
+          "status": "ok",
+          "rate": 0.0,
+          "n_low": 0,
+          "n_high": 0,
+          "n": 8
+        }
+      }
+    },
+    {
+      "name": "line_coverage",
+      "level": "pass",
+      "n_upcoming": 8,
+      "n_with_line": 8,
+      "coverage": 1.0
+    },
+    {
+      "name": "model_disagreement",
+      "level": "pass",
+      "flagged": []
+    }
+  ],
+  "thresholds": {
+    "constant_prob_stddev": 0.02,
+    "feature_nan_max_rate": 0.5,
+    "clamp_lo": 0.02,
+    "clamp_hi": 0.98,
+    "clamp_max_rate": 0.3,
+    "line_min_coverage": 0.8,
+    "model_disagree_threshold": 0.3
+  }
+}

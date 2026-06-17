@@ -1,0 +1,117 @@
+{
+  "model_type": "analytical V3 (odds-only)",
+  "seeds": [
+    42,
+    123,
+    256,
+    789,
+    1337
+  ],
+  "n_features": 3,
+  "features": [
+    "implied_home_open",
+    "overround_open",
+    "home_line_close"
+  ],
+  "replaces": "47-feature analytical V1",
+  "justification": "Backtest 2019-2025 (1430 matches): V3 matched full 47-feat model within noise (dLL=+0.0019) and beats raw market by -0.0115 LL (6.6x noise). See analytical_calibration_report.json and odds_only_variants_report.json.",
+  "wf_cv": {
+    "per_seed": {
+      "42": {
+        "config": "seed_42",
+        "log_loss": 0.5856475959261086,
+        "brier": 0.20090198235849388,
+        "accuracy": 0.6864349011588275,
+        "n": 1467
+      },
+      "123": {
+        "config": "seed_123",
+        "log_loss": 0.5851745583418798,
+        "brier": 0.20099239933891863,
+        "accuracy": 0.6850715746421268,
+        "n": 1467
+      },
+      "256": {
+        "config": "seed_256",
+        "log_loss": 0.5858349132876409,
+        "brier": 0.2013640945898082,
+        "accuracy": 0.676209952283572,
+        "n": 1467
+      },
+      "789": {
+        "config": "seed_789",
+        "log_loss": 0.5863828139074689,
+        "brier": 0.20140023933258314,
+        "accuracy": 0.6905248807089298,
+        "n": 1467
+      },
+      "1337": {
+        "config": "seed_1337",
+        "log_loss": 0.5854481477807209,
+        "brier": 0.20107065339043959,
+        "accuracy": 0.689161554192229,
+        "n": 1467
+      }
+    },
+    "ensemble": {
+      "config": "ensemble_mean",
+      "log_loss": 0.5851579846368485,
+      "brier": 0.20091737480203126,
+      "accuracy": 0.6837082481254261,
+      "n": 1467
+    },
+    "calibrated_ll": 0.5752717553950528,
+    "seed_mean_ll": 0.5856976058487638,
+    "seed_std_ll": 0.00040661343583770317,
+    "per_fold": [
+      {
+        "year": 2019,
+        "n": 207,
+        "ensemble_log_loss": 0.618814003804237
+      },
+      {
+        "year": 2020,
+        "n": 162,
+        "ensemble_log_loss": 0.5846478559873944
+      },
+      {
+        "year": 2021,
+        "n": 207,
+        "ensemble_log_loss": 0.6288224353199076
+      },
+      {
+        "year": 2022,
+        "n": 207,
+        "ensemble_log_loss": 0.5567181318481278
+      },
+      {
+        "year": 2023,
+        "n": 216,
+        "ensemble_log_loss": 0.5901774588155871
+      },
+      {
+        "year": 2024,
+        "n": 216,
+        "ensemble_log_loss": 0.6001826196824934
+      },
+      {
+        "year": 2025,
+        "n": 216,
+        "ensemble_log_loss": 0.5176190657613365
+      },
+      {
+        "year": 2026,
+        "n": 36,
+        "ensemble_log_loss": 0.5913588733612376
+      }
+    ]
+  },
+  "final_holdout": {
+    "ensemble_log_loss_raw": 0.520937654678636,
+    "ensemble_log_loss_calibrated": 0.5130006301413712,
+    "ensemble_brier_calibrated": 0.1722376640713204,
+    "ensemble_accuracy": 0.7294685990338164,
+    "val_n": 207
+  },
+  "training_time_sec": 31.763811588287354
+}

@@ -1,0 +1,120 @@
+{
+  "generated_at": "2026-04-10T10:47:18",
+  "year": 2026,
+  "n_samples": 36,
+  "status": "ok",
+  "bins": [
+    {
+      "bin": "0-10%",
+      "n": 1,
+      "predicted_mean": 0.0526,
+      "observed_rate": 0.0,
+      "drift": -0.0526,
+      "ci_low": 0.0,
+      "ci_high": 0.7935,
+      "sufficient": false,
+      "drift_flag": false
+    },
+    {
+      "bin": "10-20%",
+      "n": 3,
+      "predicted_mean": 0.1671,
+      "observed_rate": 0.3333,
+      "drift": 0.1663,
+      "ci_low": 0.0615,
+      "ci_high": 0.7923,
+      "sufficient": false,
+      "drift_flag": false
+    },
+    {
+      "bin": "20-30%",
+      "n": 0,
+      "predicted_mean": null,
+      "observed_rate": null,
+      "drift": null,
+      "sufficient": false
+    },
+    {
+      "bin": "30-40%",
+      "n": 7,
+      "predicted_mean": 0.3155,
+      "observed_rate": 0.5714,
+      "drift": 0.2559,
+      "ci_low": 0.2505,
+      "ci_high": 0.8418,
+      "sufficient": true,
+      "drift_flag": false
+    },
+    {
+      "bin": "40-50%",
+      "n": 4,
+      "predicted_mean": 0.4186,
+      "observed_rate": 0.25,
+      "drift": -0.1686,
+      "ci_low": 0.0456,
+      "ci_high": 0.6994,
+      "sufficient": false,
+      "drift_flag": false
+    },
+    {
+      "bin": "50-60%",
+      "n": 15,
+      "predicted_mean": 0.5851,
+      "observed_rate": 0.7333,
+      "drift": 0.1482,
+      "ci_low": 0.4805,
+      "ci_high": 0.891,
+      "sufficient": true,
+      "drift_flag": false
+    },
+    {
+      "bin": "60-70%",
+      "n": 0,
+      "predicted_mean": null,
+      "observed_rate": null,
+      "drift": null,
+      "sufficient": false
+    },
+    {
+      "bin": "70-80%",
+      "n": 1,
+      "predicted_mean": 0.7414,
+      "observed_rate": 1.0,
+      "drift": 0.2586,
+      "ci_low": 0.2065,
+      "ci_high": 1.0,
+      "sufficient": false,
+      "drift_flag": false
+    },
+    {
+      "bin": "80-90%",
+      "n": 2,
+      "predicted_mean": 0.8087,
+      "observed_rate": 0.5,
+      "drift": -0.3087,
+      "ci_low": 0.0945,
+      "ci_high": 0.9055,
+      "sufficient": false,
+      "drift_flag": false
+    },
+    {
+      "bin": "90-100%",
+      "n": 3,
+      "predicted_mean": 0.9718,
+      "observed_rate": 1.0,
+      "drift": 0.0282,
+      "ci_low": 0.4385,
+      "ci_high": 1.0,
+      "sufficient": false,
+      "drift_flag": false
+    }
+  ],
+  "drift_threshold": 0.15,
+  "drifting_bins": [],
+  "is_drifting": false,
+  "overall": {
+    "log_loss": 0.6088815721099117,
+    "brier": 0.21521048976525617,
+    "accuracy": 0.6944444444444444
+  }
+}

@@ -1,0 +1,43 @@
+# ---- Secrets (NEVER commit) ----
+.env
+.env.*
+!.env.example
+
+# ---- Python ----
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- CatBoost training artifacts ----
+catboost_info/
+
+# ---- Node / Next.js dashboard ----
+node_modules/
+dashboard/node_modules/
+dashboard/.next/
+dashboard/out/
+
+# ---- Logs ----
+*.log
+
+# ---- Editor / AI tooling ----
+.claude/
+.DS_Store
+
+# ---- Personal / private data (keep OUT of the public repo) ----
+# personal bet log (stakes & P&L) and captured live-odds snapshots
+data/betting/
+data/live_odds/
+
+# ---- Stray junk file (safe to delete) ----
+=3.5
+
+# ---- Data & models (optional) ----
+# data/ is ~31 MB from public sources (Squiggle, AFLTables, FootyWire), so it's fine to commit.
+# To keep the repo lean, uncomment:
+# data/raw/
+# data/master/
+# *.cbm

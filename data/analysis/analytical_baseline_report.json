@@ -1,0 +1,107 @@
+{
+  "window_start_year": 2019,
+  "window_end_year": 2025,
+  "seeds": [
+    42,
+    123,
+    256,
+    789,
+    1337
+  ],
+  "n_features_analytical": 47,
+  "n_total_pooled": 1431,
+  "pooled_own_coverage": {
+    "model": {
+      "n": 1431,
+      "accuracy": 0.6813417190775681,
+      "wins": 975
+    },
+    "market": {
+      "n": 1431,
+      "accuracy": 0.6848357791754018,
+      "wins": 980
+    },
+    "tipster": {
+      "n": 1431,
+      "accuracy": 0.6834381551362684,
+      "wins": 978
+    }
+  },
+  "same_sample_n": 1431,
+  "same_sample_accuracy": {
+    "model": {
+      "n": 1431,
+      "accuracy": 0.6813417190775681,
+      "wins": 975
+    },
+    "market": {
+      "n": 1431,
+      "accuracy": 0.6848357791754018,
+      "wins": 980
+    },
+    "tipster": {
+      "n": 1431,
+      "accuracy": 0.6834381551362684,
+      "wins": 978
+    }
+  },
+  "pairwise_agreement_common": {
+    "model_vs_market": 0.8819007686932215,
+    "model_vs_tipster": 0.9182389937106918,
+    "market_vs_tipster": 0.8951781970649895
+  },
+  "by_year_common_sample": {
+    "2019": {
+      "n": 207,
+      "model": 0.6473429951690821,
+      "market": 0.6859903381642513,
+      "tipster": 0.642512077294686
+    },
+    "2020": {
+      "n": 162,
+      "model": 0.6790123456790124,
+      "market": 0.7037037037037037,
+      "tipster": 0.6975308641975309
+    },
+    "2021": {
+      "n": 207,
+      "model": 0.6328502415458938,
+      "market": 0.6570048309178744,
+      "tipster": 0.6521739130434783
+    },
+    "2022": {
+      "n": 207,
+      "model": 0.7053140096618358,
+      "market": 0.7246376811594203,
+      "tipster": 0.7342995169082126
+    },
+    "2023": {
+      "n": 216,
+      "model": 0.7083333333333334,
+      "market": 0.6759259259259259,
+      "tipster": 0.6898148148148148
+    },
+    "2024": {
+      "n": 216,
+      "model": 0.6712962962962963,
+      "market": 0.6342592592592593,
+      "tipster": 0.6342592592592593
+    },
+    "2025": {
+      "n": 216,
+      "model": 0.7222222222222222,
+      "market": 0.7175925925925926,
+      "tipster": 0.7361111111111112
+    }
+  },
+  "head_to_head_model_vs_market": {
+    "both_right": 893,
+    "model_only_right": 82,
+    "market_only_right": 87,
+    "both_wrong": 369,
+    "model_minus_market_acc": -0.0034940600978337066,
+    "mcnemar_z_approx": -0.38461538461538464
+  },
+  "verdict": "MODEL TIES MARKET -- 47 features replicate 'pick shorter odds'. Investigate whether odds-only baseline would work.",
+  "runtime_sec": 38.206552028656006
+}

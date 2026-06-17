@@ -1,0 +1,178 @@
+[
+  {
+    "feature": "elo_expected",
+    "importance": 5.47
+  },
+  {
+    "feature": "avg_I50_diff_5",
+    "importance": 5.19
+  },
+  {
+    "feature": "elo_diff",
+    "importance": 5.13
+  },
+  {
+    "feature": "net_quality_change_diff",
+    "importance": 5.01
+  },
+  {
+    "feature": "venue_win_rate_diff",
+    "importance": 4.8
+  },
+  {
+    "feature": "avg_margin_diff_10",
+    "importance": 3.89
+  },
+  {
+    "feature": "percentage_diff",
+    "importance": 3.86
+  },
+  {
+    "feature": "score_against_diff_10",
+    "importance": 3.5
+  },
+  {
+    "feature": "avg_R50_diff_5",
+    "importance": 3.31
+  },
+  {
+    "feature": "avg_margin_diff_5",
+    "importance": 3.22
+  },
+  {
+    "feature": "avg_CL_diff_5",
+    "importance": 3.12
+  },
+  {
+    "feature": "avg_FA_diff_5",
+    "importance": 3.02
+  },
+  {
+    "feature": "ladder_rank_diff",
+    "importance": 3.0
+  },
+  {
+    "feature": "score_for_diff_10",
+    "importance": 2.98
+  },
+  {
+    "feature": "avg_FF_diff_5",
+    "importance": 2.95
+  },
+  {
+    "feature": "avg_CG_diff_5",
+    "importance": 2.87
+  },
+  {
+    "feature": "avg_M_diff_5",
+    "importance": 2.87
+  },
+  {
+    "feature": "avg_D_diff_5",
+    "importance": 2.83
+  },
+  {
+    "feature": "score_against_diff_5",
+    "importance": 2.71
+  },
+  {
+    "feature": "season_progress",
+    "importance": 2.53
+  },
+  {
+    "feature": "missing_rating_diff",
+    "importance": 2.44
+  },
+  {
+    "feature": "avg_T_diff_5",
+    "importance": 2.44
+  },
+  {
+    "feature": "avg_HO_diff_5",
+    "importance": 2.35
+  },
+  {
+    "feature": "missing_fwd_rating_diff",
+    "importance": 2.0
+  },
+  {
+    "feature": "missing_def_rating_diff",
+    "importance": 1.94
+  },
+  {
+    "feature": "away_at_home_ground",
+    "importance": 1.82
+  },
+  {
+    "feature": "win_rate_diff_5",
+    "importance": 1.7
+  },
+  {
+    "feature": "missing_mid_rating_diff",
+    "importance": 1.56
+  },
+  {
+    "feature": "score_for_diff_5",
+    "importance": 1.52
+  },
+  {
+    "feature": "win_rate_diff_10",
+    "importance": 1.47
+  },
+  {
+    "feature": "rest_diff",
+    "importance": 1.26
+  },
+  {
+    "feature": "lineup_continuity_diff",
+    "importance": 1.14
+  },
+  {
+    "feature": "home_ruck_missing",
+    "importance": 0.88
+  },
+  {
+    "feature": "home_top8",
+    "importance": 0.81
+  },
+  {
+    "feature": "away_top4",
+    "importance": 0.75
+  },
+  {
+    "feature": "away_top8",
+    "importance": 0.72
+  },
+  {
+    "feature": "away_interstate",
+    "importance": 0.68
+  },
+  {
+    "feature": "lineup_changes_diff",
+    "importance": 0.57
+  },
+  {
+    "feature": "home_top4",
+    "importance": 0.53
+  },
+  {
+    "feature": "home_at_home_ground",
+    "importance": 0.48
+  },
+  {
+    "feature": "home_interstate",
+    "importance": 0.28
+  },
+  {
+    "feature": "away_ruck_missing",
+    "importance": 0.18
+  },
+  {
+    "feature": "away_had_bye",
+    "importance": 0.15
+  },
+  {
+    "feature": "home_had_bye",
+    "importance": 0.06
+  }
+]

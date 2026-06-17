@@ -1,0 +1,213 @@
+{
+  "seeds": [
+    42,
+    123,
+    256,
+    789,
+    1337
+  ],
+  "n_features": 44,
+  "features": [
+    "elo_diff",
+    "elo_expected",
+    "home_interstate",
+    "away_interstate",
+    "home_at_home_ground",
+    "away_at_home_ground",
+    "venue_win_rate_diff",
+    "win_rate_diff_5",
+    "avg_margin_diff_5",
+    "score_for_diff_5",
+    "score_against_diff_5",
+    "lineup_changes_diff",
+    "lineup_continuity_diff",
+    "home_ruck_missing",
+    "away_ruck_missing",
+    "missing_rating_diff",
+    "net_quality_change_diff",
+    "missing_mid_rating_diff",
+    "missing_fwd_rating_diff",
+    "missing_def_rating_diff",
+    "win_rate_diff_10",
+    "avg_margin_diff_10",
+    "score_for_diff_10",
+    "score_against_diff_10",
+    "rest_diff",
+    "home_had_bye",
+    "away_had_bye",
+    "ladder_rank_diff",
+    "percentage_diff",
+    "home_top4",
+    "away_top4",
+    "home_top8",
+    "away_top8",
+    "avg_D_diff_5",
+    "avg_I50_diff_5",
+    "avg_CL_diff_5",
+    "avg_T_diff_5",
+    "avg_HO_diff_5",
+    "avg_CG_diff_5",
+    "avg_R50_diff_5",
+    "avg_M_diff_5",
+    "avg_FF_diff_5",
+    "avg_FA_diff_5",
+    "season_progress"
+  ],
+  "hyperparams": {
+    "iterations": 2000,
+    "early_stopping_rounds": 100,
+    "eval_metric": "MAE",
+    "loss_function": "Huber:delta=30",
+    "use_best_model": true,
+    "verbose": 0,
+    "learning_rate": 0.056902671548617126,
+    "depth": 7,
+    "l2_leaf_reg": 6.328942355591057,
+    "random_strength": 1.922140490616357,
+    "border_count": 177,
+    "min_data_in_leaf": 1,
+    "bootstrap_type": "Bernoulli",
+    "subsample": 0.6010788964741505
+  },
+  "wf_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "wf_cv": {
+    "per_seed": {
+      "42": {
+        "config": "seed_42",
+        "mae": 26.065164960252314,
+        "rmse": 33.44734600017422,
+        "direction_acc": 0.6659850034083163,
+        "n": 1467
+      },
+      "123": {
+        "config": "seed_123",
+        "mae": 25.985095581689613,
+        "rmse": 33.37554031657992,
+        "direction_acc": 0.6646216768916156,
+        "n": 1467
+      },
+      "256": {
+        "config": "seed_256",
+        "mae": 25.98674828498513,
+        "rmse": 33.362919652581304,
+        "direction_acc": 0.6591683708248125,
+        "n": 1467
+      },
+      "789": {
+        "config": "seed_789",
+        "mae": 26.09403765599195,
+        "rmse": 33.44268464872494,
+        "direction_acc": 0.667348329925017,
+        "n": 1467
+      },
+      "1337": {
+        "config": "seed_1337",
+        "mae": 26.029995552048597,
+        "rmse": 33.32668141837955,
+        "direction_acc": 0.6598500340831629,
+        "n": 1467
+      }
+    },
+    "ensemble": {
+      "config": "ensemble_mean",
+      "mae": 25.937076388747254,
+      "rmse": 33.26555940872374,
+      "direction_acc": 0.667348329925017,
+      "n": 1467
+    },
+    "seed_mean_mae": 26.032208406993522,
+    "seed_std_mae": 0.0428955199585019,
+    "seed_range_mae": 0.10894207430233749,
+    "ensemble_delta_vs_seed_mean": -0.09513201824626805,
+    "per_fold": [
+      {
+        "year": 2019,
+        "n": 207,
+        "seed_mean_mae": 27.424281562268163,
+        "seed_std_mae": 0.057396193367597596,
+        "ensemble_mae": 27.3262081386
+      },
+      {
+        "year": 2020,
+        "n": 162,
+        "seed_mean_mae": 23.03499927028549,
+        "seed_std_mae": 0.08703443082725588,
+        "ensemble_mae": 22.90957813664157
+      },
+      {
+        "year": 2021,
+        "n": 207,
+        "seed_mean_mae": 26.64933619282534,
+        "seed_std_mae": 0.06630779343541228,
+        "ensemble_mae": 26.563792797873155
+      },
+      {
+        "year": 2022,
+        "n": 207,
+        "seed_mean_mae": 24.74312670997751,
+        "seed_std_mae": 0.12558813663948856,
+        "ensemble_mae": 24.664738605541842
+      },
+      {
+        "year": 2023,
+        "n": 216,
+        "seed_mean_mae": 25.43446635991941,
+        "seed_std_mae": 0.18375668468007564,
+        "ensemble_mae": 25.293047181435004
+      },
+      {
+        "year": 2024,
+        "n": 216,
+        "seed_mean_mae": 27.351407338259445,
+        "seed_std_mae": 0.16614721347671227,
+        "ensemble_mae": 27.282951510185708
+      },
+      {
+        "year": 2025,
+        "n": 216,
+        "seed_mean_mae": 26.989960782556903,
+        "seed_std_mae": 0.11649664736005427,
+        "ensemble_mae": 26.913080818131803
+      },
+      {
+        "year": 2026,
+        "n": 36,
+        "seed_mean_mae": 25.30370831012842,
+        "seed_std_mae": 0.49642671524927906,
+        "ensemble_mae": 25.218531801462184
+      }
+    ]
+  },
+  "final_holdout": {
+    "per_seed_mae": [
+      27.000192232761073,
+      26.688288885005786,
+      26.72917706164418,
+      26.336763465486026,
+      26.34905760343023
+    ],
+    "per_seed_mean_mae": 26.62069584966546,
+    "ensemble_mae": 26.51543181399428,
+    "ensemble_rmse": 33.404443319679984,
+    "ensemble_direction_acc": 0.7101449275362319,
+    "val_period": "2025-2026",
+    "val_n": 207
+  },
+  "saved_models": [
+    "C:\\Users\\Ollie\\AFL\\data\\ensemble\\margin_model_0.cbm",
+    "C:\\Users\\Ollie\\AFL\\data\\ensemble\\margin_model_1.cbm",
+    "C:\\Users\\Ollie\\AFL\\data\\ensemble\\margin_model_2.cbm",
+    "C:\\Users\\Ollie\\AFL\\data\\ensemble\\margin_model_3.cbm",
+    "C:\\Users\\Ollie\\AFL\\data\\ensemble\\margin_model_4.cbm"
+  ],
+  "training_time_sec": 43.923720836639404
+}

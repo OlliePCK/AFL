@@ -1,0 +1,1007 @@
+{
+  "seeds": [
+    42,
+    123,
+    256,
+    789,
+    1337
+  ],
+  "val_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "baseline_groups": [
+    "form_10g",
+    "rest",
+    "ladder",
+    "detailed_stats",
+    "season_context"
+  ],
+  "noise_floor_seed_std": 0.0017440732251326977,
+  "configs": {
+    "baseline": {
+      "n_features": 44,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6350063377860984,
+          "seed_std_ll": 0.0022659464247899597,
+          "ensemble_ll": 0.6339046975830518
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.6043150496667393,
+          "seed_std_ll": 0.0039731428827205805,
+          "ensemble_ll": 0.6017873812262109
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6380304098125231,
+          "seed_std_ll": 0.0029391290185007473,
+          "ensemble_ll": 0.637273585120988
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5616460778154477,
+          "seed_std_ll": 0.0028834293061304364,
+          "ensemble_ll": 0.5599345977725793
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.5876355755428732,
+          "seed_std_ll": 0.004582487417347487,
+          "ensemble_ll": 0.5855183101052174
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.6064942555769426,
+          "seed_std_ll": 0.0034237660194553574,
+          "ensemble_ll": 0.60462775439006
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5272362497546565,
+          "seed_std_ll": 0.003969076146542341,
+          "ensemble_ll": 0.524653127855525
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.591842451128637,
+      "pooled_ensemble_brier": 0.20421597691812488,
+      "pooled_ensemble_accuracy": 0.6652690426275332,
+      "per_seed_pooled_log_loss": {
+        "42": 0.590448241647806,
+        "123": 0.5957045955651238,
+        "256": 0.5939601239923746,
+        "789": 0.5944500590436484,
+        "1337": 0.5936181690438845
+      },
+      "seed_mean_pooled_log_loss": 0.5936362378585675,
+      "seed_std_pooled_log_loss": 0.0017440732251326977
+    },
+    "+implied_close": {
+      "n_features": 46,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6275553532350967,
+          "seed_std_ll": 0.002752394504219169,
+          "ensemble_ll": 0.6258956148492116
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.5929381615078609,
+          "seed_std_ll": 0.006695288282386915,
+          "ensemble_ll": 0.5904366441665837
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6391768144760437,
+          "seed_std_ll": 0.002064683726161678,
+          "ensemble_ll": 0.6381159226585706
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5604127967792137,
+          "seed_std_ll": 0.005601492262871107,
+          "ensemble_ll": 0.559401649441003
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.5829997118209744,
+          "seed_std_ll": 0.0038186649763371637,
+          "ensemble_ll": 0.5806177088756029
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.6031135682902397,
+          "seed_std_ll": 0.0029799269514769414,
+          "ensemble_ll": 0.6007552677030717
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5221426116328218,
+          "seed_std_ll": 0.004465539520333546,
+          "ensemble_ll": 0.5196885206518636
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.5873700555242357,
+      "pooled_ensemble_brier": 0.20197147305505164,
+      "pooled_ensemble_accuracy": 0.673654786862334,
+      "per_seed_pooled_log_loss": {
+        "42": 0.590623580863945,
+        "123": 0.5863218138505563,
+        "256": 0.5905173865738484,
+        "789": 0.5883298406518526,
+        "1337": 0.5906024249867318
+      },
+      "seed_mean_pooled_log_loss": 0.5892790093853868,
+      "seed_std_pooled_log_loss": 0.0017169045454933215
+    },
+    "+implied_open": {
+      "n_features": 46,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.632376795268934,
+          "seed_std_ll": 0.0018220514976309689,
+          "ensemble_ll": 0.6309299466878406
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.5978349535019362,
+          "seed_std_ll": 0.0062216796544629,
+          "ensemble_ll": 0.5946149518935694
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6381677759412823,
+          "seed_std_ll": 0.001649177799234203,
+          "ensemble_ll": 0.6368557494128171
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.560413119089594,
+          "seed_std_ll": 0.0028192802965372166,
+          "ensemble_ll": 0.5590551734917434
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.591430842262739,
+          "seed_std_ll": 0.004850320053121118,
+          "ensemble_ll": 0.5891568108557399
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.6038789236267628,
+          "seed_std_ll": 0.00331153183021459,
+          "ensemble_ll": 0.6007906076074098
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5210211041804567,
+          "seed_std_ll": 0.00509624098126956,
+          "ensemble_ll": 0.5170448295427691
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.589234107464475,
+      "pooled_ensemble_brier": 0.20272257782352315,
+      "pooled_ensemble_accuracy": 0.676450034940601,
+      "per_seed_pooled_log_loss": {
+        "42": 0.5921170126610712,
+        "123": 0.5924598405193837,
+        "256": 0.5886842193631291,
+        "789": 0.5911610984955967,
+        "1337": 0.5935966000806142
+      },
+      "seed_mean_pooled_log_loss": 0.591603754223959,
+      "seed_std_pooled_log_loss": 0.0016545319866549434
+    },
+    "+odds_movement": {
+      "n_features": 47,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6355421775439445,
+          "seed_std_ll": 0.006112892739838668,
+          "ensemble_ll": 0.6326936847545439
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.6036684242915451,
+          "seed_std_ll": 0.005499538556204769,
+          "ensemble_ll": 0.5993655560727624
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6445970149180025,
+          "seed_std_ll": 0.003446123347804466,
+          "ensemble_ll": 0.643765321727224
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.565349431719252,
+          "seed_std_ll": 0.0029000633966134145,
+          "ensemble_ll": 0.5642746245372208
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.5884427246517129,
+          "seed_std_ll": 0.0019293723878136394,
+          "ensemble_ll": 0.5866422995538325
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.6091926853427091,
+          "seed_std_ll": 0.0028641337708419637,
+          "ensemble_ll": 0.6070386578433331
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5325045372270582,
+          "seed_std_ll": 0.0026096161187325576,
+          "ensemble_ll": 0.5298761629977838
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.5942819145422973,
+      "pooled_ensemble_brier": 0.20518179553743734,
+      "pooled_ensemble_accuracy": 0.6645702306079665,
+      "per_seed_pooled_log_loss": {
+        "42": 0.5983957381824534,
+        "123": 0.5955652552902378,
+        "256": 0.5968618852604973,
+        "789": 0.596484684937009,
+        "1337": 0.5949449120131644
+      },
+      "seed_mean_pooled_log_loss": 0.5964504951366725,
+      "seed_std_pooled_log_loss": 0.0011836225252245575
+    },
+    "+line": {
+      "n_features": 45,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6269502885757255,
+          "seed_std_ll": 0.0036286054529067802,
+          "ensemble_ll": 0.6250056245392043
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.599461208463419,
+          "seed_std_ll": 0.0037690217348833937,
+          "ensemble_ll": 0.5974591753753314
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6353868786282403,
+          "seed_std_ll": 0.002444981296519186,
+          "ensemble_ll": 0.6341719709618201
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5586922003337523,
+          "seed_std_ll": 0.0028673252140611026,
+          "ensemble_ll": 0.5560343927732511
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.5779063817732037,
+          "seed_std_ll": 0.0038133341167726777,
+          "ensemble_ll": 0.5743846495198759
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.6002448405468244,
+          "seed_std_ll": 0.0032060345893599436,
+          "ensemble_ll": 0.5982302345354954
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5179480933339963,
+          "seed_std_ll": 0.0053843107896445665,
+          "ensemble_ll": 0.5154494527879329
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.5850168866119724,
+      "pooled_ensemble_brier": 0.201055781967304,
+      "pooled_ensemble_accuracy": 0.676450034940601,
+      "per_seed_pooled_log_loss": {
+        "42": 0.5872930510586907,
+        "123": 0.5865130873571236,
+        "256": 0.5870210889838722,
+        "789": 0.5863722142410926,
+        "1337": 0.589289891107826
+      },
+      "seed_mean_pooled_log_loss": 0.587297866549721,
+      "seed_std_pooled_log_loss": 0.0010504762184464203
+    },
+    "+all_odds": {
+      "n_features": 50,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6228633831952839,
+          "seed_std_ll": 0.0009130215981747976,
+          "ensemble_ll": 0.6200954685225156
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.582223582875752,
+          "seed_std_ll": 0.006503022560914341,
+          "ensemble_ll": 0.5782661604945187
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6364007591982084,
+          "seed_std_ll": 0.002936750106797078,
+          "ensemble_ll": 0.6353944523409988
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5566680494970505,
+          "seed_std_ll": 0.002041002270555882,
+          "ensemble_ll": 0.5552599824857365
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.5808256014391124,
+          "seed_std_ll": 0.0023866051365866317,
+          "ensemble_ll": 0.5783237466639487
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.5951170209226411,
+          "seed_std_ll": 0.0039572323681097785,
+          "ensemble_ll": 0.5932802260082368
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5205600296738375,
+          "seed_std_ll": 0.0008063181939099549,
+          "ensemble_ll": 0.5183893157844894
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.582489796156568,
+      "pooled_ensemble_brier": 0.19983537075124108,
+      "pooled_ensemble_accuracy": 0.6827393431167016,
+      "per_seed_pooled_log_loss": {
+        "42": 0.5856201052577902,
+        "123": 0.583097211758894,
+        "256": 0.5837049804513977,
+        "789": 0.5852890877708461,
+        "1337": 0.5856385692925249
+      },
+      "seed_mean_pooled_log_loss": 0.5846699909062906,
+      "seed_std_pooled_log_loss": 0.0010610392757524477
+    },
+    "odds_only": {
+      "n_features": 5,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6192981062959904,
+          "seed_std_ll": 0.0016204837891104448,
+          "ensemble_ll": 0.6182146838960569
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.5736039699783572,
+          "seed_std_ll": 0.0015630812224397322,
+          "ensemble_ll": 0.5728794001682809
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6341199734294438,
+          "seed_std_ll": 0.0010710675656712002,
+          "ensemble_ll": 0.6338191862253816
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5582293313728388,
+          "seed_std_ll": 0.001287363323188042,
+          "ensemble_ll": 0.5577262848565492
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.5825898412150899,
+          "seed_std_ll": 0.0005482939381208619,
+          "ensemble_ll": 0.5819738233334001
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.6004184963658517,
+          "seed_std_ll": 0.0017713561632333554,
+          "ensemble_ll": 0.6000377211552878
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5239484926208825,
+          "seed_std_ll": 0.0020210588892724895,
+          "ensemble_ll": 0.523170366946796
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.5840294254212225,
+      "pooled_ensemble_brier": 0.2004765638691451,
+      "pooled_ensemble_accuracy": 0.6876310272536688,
+      "per_seed_pooled_log_loss": {
+        "42": 0.5843090141402113,
+        "123": 0.5846829673237628,
+        "256": 0.5837419095922549,
+        "789": 0.5853878286408174,
+        "1337": 0.5851400991618996
+      },
+      "seed_mean_pooled_log_loss": 0.5846523637717892,
+      "seed_std_pooled_log_loss": 0.0005876302824515273
+    },
+    "+tipster_raw": {
+      "n_features": 47,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6357628026637158,
+          "seed_std_ll": 0.003381745065402087,
+          "ensemble_ll": 0.6336223479240516
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.6049860669819545,
+          "seed_std_ll": 0.005297570088474959,
+          "ensemble_ll": 0.6018732075950224
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6423302102025135,
+          "seed_std_ll": 0.0020431059039555744,
+          "ensemble_ll": 0.6409117537132543
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5654944333135407,
+          "seed_std_ll": 0.002150655143099054,
+          "ensemble_ll": 0.5642062776930022
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.5890780136213756,
+          "seed_std_ll": 0.0032376498434666316,
+          "ensemble_ll": 0.5867772954079777
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.6043619255438125,
+          "seed_std_ll": 0.005417897177953652,
+          "ensemble_ll": 0.6020194172928923
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5252188697640005,
+          "seed_std_ll": 0.008081437549904027,
+          "ensemble_ll": 0.5223231585138597
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.5924001469840314,
+      "pooled_ensemble_brier": 0.20411465289313613,
+      "pooled_ensemble_accuracy": 0.6729559748427673,
+      "per_seed_pooled_log_loss": {
+        "42": 0.5974031798098602,
+        "123": 0.5897401337345709,
+        "256": 0.5959989677122248,
+        "789": 0.5929117676146141,
+        "1337": 0.596904186415221
+      },
+      "seed_mean_pooled_log_loss": 0.5945916470572982,
+      "seed_std_pooled_log_loss": 0.0028841734548742917
+    },
+    "+tipster_derived": {
+      "n_features": 46,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6352824153516055,
+          "seed_std_ll": 0.0019973676721682897,
+          "ensemble_ll": 0.6332641921480907
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.5997711936309739,
+          "seed_std_ll": 0.004601318323251547,
+          "ensemble_ll": 0.5957532846462845
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6410869597183135,
+          "seed_std_ll": 0.0035749568110519684,
+          "ensemble_ll": 0.6400823694235924
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5634324223946167,
+          "seed_std_ll": 0.005669006150559696,
+          "ensemble_ll": 0.5618440810937966
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.5866195931771622,
+          "seed_std_ll": 0.0030113526958460623,
+          "ensemble_ll": 0.5847987875333237
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.5976729859620601,
+          "seed_std_ll": 0.003697377312575699,
+          "ensemble_ll": 0.5954786919805747
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5292123729256382,
+          "seed_std_ll": 0.003396341316765078,
+          "ensemble_ll": 0.527029794186423
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.590618355180798,
+      "pooled_ensemble_brier": 0.2034465776582113,
+      "pooled_ensemble_accuracy": 0.6750524109014675,
+      "per_seed_pooled_log_loss": {
+        "42": 0.5926045128287736,
+        "123": 0.5915722722252953,
+        "256": 0.5923154506126324,
+        "789": 0.5937395172103378,
+        "1337": 0.5931469161983856
+      },
+      "seed_mean_pooled_log_loss": 0.5926757338150849,
+      "seed_std_pooled_log_loss": 0.000735683606634033
+    },
+    "+tipster_all": {
+      "n_features": 49,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6360559984422735,
+          "seed_std_ll": 0.002501108344645955,
+          "ensemble_ll": 0.6345023401572273
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.5996095928961082,
+          "seed_std_ll": 0.0029468362541469873,
+          "ensemble_ll": 0.5973573202900481
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6364528431430394,
+          "seed_std_ll": 0.0018464024153538748,
+          "ensemble_ll": 0.6351953534743604
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5614030768765614,
+          "seed_std_ll": 0.0034677837884303717,
+          "ensemble_ll": 0.5594578239787001
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.5898731974751464,
+          "seed_std_ll": 0.0032395216110389915,
+          "ensemble_ll": 0.5873743203930529
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.5953734789102126,
+          "seed_std_ll": 0.0037580156429631657,
+          "ensemble_ll": 0.5921141609385309
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5267303408290936,
+          "seed_std_ll": 0.003916441328960583,
+          "ensemble_ll": 0.524020896187758
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.5893536712624005,
+      "pooled_ensemble_brier": 0.20280296900833295,
+      "pooled_ensemble_accuracy": 0.6785464709993012,
+      "per_seed_pooled_log_loss": {
+        "42": 0.5910868439748391,
+        "123": 0.5918949099833699,
+        "256": 0.5898431229443188,
+        "789": 0.5930594124030882,
+        "1337": 0.5919897738987836
+      },
+      "seed_mean_pooled_log_loss": 0.59157481264088,
+      "seed_std_pooled_log_loss": 0.0010691636200687504
+    },
+    "+rain_interaction": {
+      "n_features": 45,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6386538159243458,
+          "seed_std_ll": 0.0031092547536864606,
+          "ensemble_ll": 0.6374615114682503
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.6065413861671411,
+          "seed_std_ll": 0.004202484038747736,
+          "ensemble_ll": 0.6034877278968069
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6403589042426382,
+          "seed_std_ll": 0.0014211016258771443,
+          "ensemble_ll": 0.6383983603746465
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5637131828425334,
+          "seed_std_ll": 0.005244032629650122,
+          "ensemble_ll": 0.5621969611428633
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.5830966967770562,
+          "seed_std_ll": 0.006270244413549085,
+          "ensemble_ll": 0.5805422797584916
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.6069092205073235,
+          "seed_std_ll": 0.0035506232711150863,
+          "ensemble_ll": 0.6042581459817127
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5238885707309641,
+          "seed_std_ll": 0.005317157825032307,
+          "ensemble_ll": 0.5209612461718356
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.5916752602937356,
+      "pooled_ensemble_brier": 0.20403840828248576,
+      "pooled_ensemble_accuracy": 0.6715583508036338,
+      "per_seed_pooled_log_loss": {
+        "42": 0.5931860986684526,
+        "123": 0.5932779247525489,
+        "256": 0.5937062708258127,
+        "789": 0.591600426990469,
+        "1337": 0.5978490407940279
+      },
+      "seed_mean_pooled_log_loss": 0.5939239524062623,
+      "seed_std_pooled_log_loss": 0.0020887438496780273
+    },
+    "+sos": {
+      "n_features": 45,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.637061088999635,
+          "seed_std_ll": 0.004392055768661911,
+          "ensemble_ll": 0.6345736511491313
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.6058772081232221,
+          "seed_std_ll": 0.005471338975899409,
+          "ensemble_ll": 0.6037231184437173
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6399153627655596,
+          "seed_std_ll": 0.001838150522075702,
+          "ensemble_ll": 0.6389093234639013
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5669763561840927,
+          "seed_std_ll": 0.004860664107047287,
+          "ensemble_ll": 0.5656541898806812
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.5839790610897599,
+          "seed_std_ll": 0.003937752008133641,
+          "ensemble_ll": 0.5819958220369552
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.6025482847151848,
+          "seed_std_ll": 0.005181688228513008,
+          "ensemble_ll": 0.6007441379897569
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5205157832775151,
+          "seed_std_ll": 0.005790605519869089,
+          "ensemble_ll": 0.5177564471365049
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.5910634257060348,
+      "pooled_ensemble_brier": 0.2038754490507959,
+      "pooled_ensemble_accuracy": 0.6701607267645003,
+      "per_seed_pooled_log_loss": {
+        "42": 0.5922537556512971,
+        "123": 0.5924818086115707,
+        "256": 0.5928215373293956,
+        "789": 0.592105055182095,
+        "1337": 0.5952982025662278
+      },
+      "seed_mean_pooled_log_loss": 0.5929920718681172,
+      "seed_std_pooled_log_loss": 0.001178100068241042
+    },
+    "+cumulative_travel": {
+      "n_features": 45,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6376036857179644,
+          "seed_std_ll": 0.003612219988718278,
+          "ensemble_ll": 0.6364478947218941
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.6012077444363977,
+          "seed_std_ll": 0.007474284950777518,
+          "ensemble_ll": 0.5948928480157293
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6403049474932707,
+          "seed_std_ll": 0.0016755194994099603,
+          "ensemble_ll": 0.6396729032963823
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5649741953841219,
+          "seed_std_ll": 0.004482551955582252,
+          "ensemble_ll": 0.5634687241361195
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.5840371297898319,
+          "seed_std_ll": 0.005144490609866268,
+          "ensemble_ll": 0.5814564780120773
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.6066993227266809,
+          "seed_std_ll": 0.0034529269821385934,
+          "ensemble_ll": 0.604411448455592
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.522944826776258,
+          "seed_std_ll": 0.005910377604195449,
+          "ensemble_ll": 0.5201284132803276
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.5909593863382777,
+      "pooled_ensemble_brier": 0.20378141715836504,
+      "pooled_ensemble_accuracy": 0.6750524109014675,
+      "per_seed_pooled_log_loss": {
+        "42": 0.5926510960342133,
+        "123": 0.5950652376092058,
+        "256": 0.592762710241191,
+        "789": 0.5907644013601288,
+        "1337": 0.5953098616915778
+      },
+      "seed_mean_pooled_log_loss": 0.5933106613872633,
+      "seed_std_pooled_log_loss": 0.0016908019762578135
+    },
+    "+consecutive_away": {
+      "n_features": 45,
+      "folds": [
+        {
+          "year": 2019,
+          "n": 207,
+          "seed_mean_ll": 0.6377366742364082,
+          "seed_std_ll": 0.003106520438787376,
+          "ensemble_ll": 0.6365706805161175
+        },
+        {
+          "year": 2020,
+          "n": 162,
+          "seed_mean_ll": 0.6051882407409833,
+          "seed_std_ll": 0.005029139162837014,
+          "ensemble_ll": 0.6022873360945378
+        },
+        {
+          "year": 2021,
+          "n": 207,
+          "seed_mean_ll": 0.6404462624902636,
+          "seed_std_ll": 0.001594387981546586,
+          "ensemble_ll": 0.639317115925149
+        },
+        {
+          "year": 2022,
+          "n": 207,
+          "seed_mean_ll": 0.5619340972197583,
+          "seed_std_ll": 0.004030450594173659,
+          "ensemble_ll": 0.5599924215612939
+        },
+        {
+          "year": 2023,
+          "n": 216,
+          "seed_mean_ll": 0.585994088440698,
+          "seed_std_ll": 0.005814308766290305,
+          "ensemble_ll": 0.5837493426536692
+        },
+        {
+          "year": 2024,
+          "n": 216,
+          "seed_mean_ll": 0.6054091638163165,
+          "seed_std_ll": 0.0026282120263187454,
+          "ensemble_ll": 0.6028575464787338
+        },
+        {
+          "year": 2025,
+          "n": 216,
+          "seed_mean_ll": 0.5240808906977851,
+          "seed_std_ll": 0.005016587874181406,
+          "ensemble_ll": 0.5213891794948763
+        }
+      ],
+      "pooled_ensemble_log_loss": 0.591561778055442,
+      "pooled_ensemble_brier": 0.20410092752382927,
+      "pooled_ensemble_accuracy": 0.6722571628232006,
+      "per_seed_pooled_log_loss": {
+        "42": 0.5941130466407661,
+        "123": 0.5915568883142656,
+        "256": 0.5949693792254743,
+        "789": 0.5906774119439473,
+        "1337": 0.5968499262346908
+      },
+      "seed_mean_pooled_log_loss": 0.5936333304718289,
+      "seed_std_pooled_log_loss": 0.0022543605990922783
+    }
+  },
+  "deltas_vs_baseline": {
+    "baseline": 0.0,
+    "+implied_close": -0.004472395604401269,
+    "+implied_open": -0.0026083436641619606,
+    "+odds_movement": 0.0024394634136603033,
+    "+line": -0.006825564516664606,
+    "+all_odds": -0.009352654972068941,
+    "odds_only": -0.00781302570741449,
+    "+tipster_raw": 0.0005576958553944467,
+    "+tipster_derived": -0.00122409594783901,
+    "+tipster_all": -0.0024887798662365235,
+    "+rain_interaction": -0.000167190834901354,
+    "+sos": -0.0007790254226022197,
+    "+cumulative_travel": -0.000883064790359267,
+    "+consecutive_away": -0.00028067307319501467
+  },
+  "tier3_qualitative": {
+    "injury_lists": {
+      "description": "Detailed injury/suspension lists from AFL.com.au",
+      "expected_signal": "Moderate -- we already have 9 player features covering lineup changes, ruck absence, and quality-weighted missing players. Injury lists would add injury type (hamstring vs managed rest) and return timeline, which may sharpen the existing player features.",
+      "collection_effort": "Moderate -- weekly scrape of AFL injury list page, need to match player names to teams and positions.",
+      "historical_coverage": "2018+ reliably, spotty before that.",
+      "feature_count": "2-4 (e.g. total_weeks_injured_diff, key_player_injury_diff)",
+      "risk_of_null": "High -- existing player features already capture the bulk of lineup disruption signal.",
+      "priority": "Medium"
+    },
+    "coach_changes": {
+      "description": "Coach tenure and mid-season changes",
+      "expected_signal": "Low -- only 2-3 coaching changes per year across 18 teams. Very sparse signal. New coach effect is real but hard to model with so few data points.",
+      "collection_effort": "Low -- manual CSV, ~30 entries since 2012.",
+      "historical_coverage": "Full (2012+).",
+      "feature_count": "2 (coach_tenure_games, is_new_coach)",
+      "risk_of_null": "Very high -- too sparse for tree-based learners.",
+      "priority": "Low"
+    },
+    "quarter_scoring": {
+      "description": "Quarter-by-quarter scoring patterns from Squiggle",
+      "expected_signal": "Low-moderate -- could capture comeback ability or fast-start tendency. But rolling margin already captures scoring consistency indirectly.",
+      "collection_effort": "Low -- Squiggle API already provides quarter scores, just need to add columns to fetch_games.",
+      "historical_coverage": "Full (2012+).",
+      "feature_count": "3-4 (q1_margin_diff, second_half_surge_diff)",
+      "risk_of_null": "High -- form consistency features (margin volatility) were already null.",
+      "priority": "Low-Medium"
+    },
+    "brownlow_votes": {
+      "description": "Brownlow Medal votes as individual player form proxy",
+      "expected_signal": "Low -- highly correlated with disposal counts and inside 50s which we already feature. Votes are also announced with a delay (only known publicly at season end).",
+      "collection_effort": "Moderate -- scrape from AFL Tables, match to games.",
+      "historical_coverage": "Full but delayed release.",
+      "feature_count": "1-2 (team_brownlow_votes_diff_5)",
+      "risk_of_null": "Very high -- delayed availability makes it impractical for in-season prediction.",
+      "priority": "Very Low"
+    }
+  },
+  "runtime_sec": 328.36356925964355
+}

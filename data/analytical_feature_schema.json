@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "features": [
+    "implied_home_open",
+    "overround_open",
+    "home_line_close"
+  ],
+  "target": "home_win",
+  "note": "V3 analytical model \u2014 3 odds-only features. Replaces 47-feature V1. See analytical_calibration_report.json and odds_only_variants_report.json for validation."
+}
